@@ -113,4 +113,65 @@
     NSLog(@"\n");
 }
 
+///////////////////////////////另一只理解方式//////////////////////////////////////////////////////
+
+//UIWebview中设置Cookie,有时候设置Cookie的参数根据后台的要求而不同，我这里设置的参数是userID和userPass，即用户ID和密码
+
+-(void)setUIWebviewcookie{
+    NSString * strID = [NSString stringWithFormat:@"%@",@"id"];
+    NSURL *cookieHost = [NSURL URLWithString:@"http://www.xxx.com"];
+    // 设定 cookie
+    NSHTTPCookie *cookie1 = [NSHTTPCookie cookieWithProperties:
+                             [NSDictionary dictionaryWithObjectsAndKeys:
+                              [cookieHost host], NSHTTPCookieDomain,
+                              [cookieHost path], NSHTTPCookiePath,
+                              @"USER_ID",  NSHTTPCookieName,
+                              strID, NSHTTPCookieValue,
+                              nil]];
+    
+    // 设定 cookie
+    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie1];
+    NSString * mdStr = @"mima";
+    // 定义 cookie 要设定的 host
+    // 设定 cookie
+    NSHTTPCookie *cookie = [NSHTTPCookie cookieWithProperties:
+                            [NSDictionary dictionaryWithObjectsAndKeys:
+                             [cookieHost host], NSHTTPCookieDomain,
+                             [cookieHost path], NSHTTPCookiePath,
+                             @"USER_PASS",  NSHTTPCookieName,
+                             mdStr, NSHTTPCookieValue,
+                             nil]];
+    // 设定 cookie
+    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie];
+    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookieAcceptPolicy:NSHTTPCookieAcceptPolicyAlways];
+}
+/**
+ *  网络请求设置Cookie
+ */
+-(void)setCookie{
+    
+    NSString * cookStr = [NSString stringWithFormat:@"这是字符串是后台要求的"];
+    NSMutableDictionary *cookieProperties = [NSMutableDictionary dictionary];
+    [cookieProperties setObject:@"author" forKey:NSHTTPCookieName];
+    [cookieProperties setObject:cookStr forKey:NSHTTPCookieValue];
+    [cookieProperties setObject:@"www.xxx.com" forKey:NSHTTPCookieDomain];
+    [cookieProperties setObject:@"baseUrl 是一个url" forKey:NSHTTPCookieOriginURL];
+    [cookieProperties setObject:@"/" forKey:NSHTTPCookiePath];
+    [cookieProperties setObject:@"0" forKey:NSHTTPCookieVersion];
+    [cookieProperties setValue:[NSDate dateWithTimeIntervalSinceNow:60*60*24*360] forKey:NSHTTPCookieExpires];
+    NSHTTPCookie *cookie = [NSHTTPCookie cookieWithProperties:cookieProperties];
+    [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:cookie];
+}
+/**
+ *  清除Cookie
+ */
+-(void)clearCook{
+    NSHTTPCookieStorage *cookieJar = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    NSArray *_tmpArray = [NSArray arrayWithArray:[cookieJar cookies]];
+    for (id obj in _tmpArray) {
+        [cookieJar deleteCookie:obj];
+    }
+}
+
+
 @end
