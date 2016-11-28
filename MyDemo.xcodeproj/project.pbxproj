@@ -77,6 +77,47 @@
 		0B9099511DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099431DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0B9099521DEBE65800CFCD82 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099451DEBE65800CFCD82 /* View+MASAdditions.m */; };
 		0B9099531DEBE65800CFCD82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099481DEBE65800CFCD82 /* ViewController+MASAdditions.m */; };
+		0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */; };
+		0B9099801DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */; };
+		0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90995B1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m */; };
+		0B9099821DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B90995C1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib */; };
+		0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90995E1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m */; };
+		0B9099841DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B90995F1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib */; };
+		0B9099851DEC23BF00CFCD82 /* UICollectionViewSimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099611DEC23BF00CFCD82 /* UICollectionViewSimpleController.m */; };
+		0B9099861DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099641DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m */; };
+		0B9099871DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099651DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib */; };
+		0B9099881DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099671DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.m */; };
+		0B9099891DEC23BF00CFCD82 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099691DEC23BF00CFCD82 /* 0.jpg */; };
+		0B90998A1DEC23BF00CFCD82 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90996A1DEC23BF00CFCD82 /* 1.jpg */; };
+		0B90998B1DEC23BF00CFCD82 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90996B1DEC23BF00CFCD82 /* 10.jpg */; };
+		0B90998C1DEC23BF00CFCD82 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90996C1DEC23BF00CFCD82 /* 11.jpg */; };
+		0B90998D1DEC23BF00CFCD82 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90996D1DEC23BF00CFCD82 /* 12.jpg */; };
+		0B90998E1DEC23BF00CFCD82 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90996E1DEC23BF00CFCD82 /* 13.jpg */; };
+		0B90998F1DEC23BF00CFCD82 /* 14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90996F1DEC23BF00CFCD82 /* 14.jpg */; };
+		0B9099901DEC23BF00CFCD82 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099701DEC23BF00CFCD82 /* 15.jpg */; };
+		0B9099911DEC23BF00CFCD82 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099711DEC23BF00CFCD82 /* 16.jpg */; };
+		0B9099921DEC23BF00CFCD82 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099721DEC23BF00CFCD82 /* 17.jpg */; };
+		0B9099931DEC23BF00CFCD82 /* 18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099731DEC23BF00CFCD82 /* 18.jpg */; };
+		0B9099941DEC23BF00CFCD82 /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099741DEC23BF00CFCD82 /* 19.jpg */; };
+		0B9099951DEC23BF00CFCD82 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099751DEC23BF00CFCD82 /* 2.jpg */; };
+		0B9099961DEC23BF00CFCD82 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099761DEC23BF00CFCD82 /* 3.jpg */; };
+		0B9099971DEC23BF00CFCD82 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099771DEC23BF00CFCD82 /* 4.jpg */; };
+		0B9099981DEC23BF00CFCD82 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099781DEC23BF00CFCD82 /* 5.jpg */; };
+		0B9099991DEC23BF00CFCD82 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099791DEC23BF00CFCD82 /* 6.jpg */; };
+		0B90999A1DEC23BF00CFCD82 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90997A1DEC23BF00CFCD82 /* 7.jpg */; };
+		0B90999B1DEC23BF00CFCD82 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90997B1DEC23BF00CFCD82 /* 8.jpg */; };
+		0B90999C1DEC23BF00CFCD82 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B90997C1DEC23BF00CFCD82 /* 9.jpg */; };
+		0B90999D1DEC23C000CFCD82 /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90997E1DEC23BF00CFCD82 /* WaterViewController.m */; };
+		0B9099A01DEC23F200CFCD82 /* PBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90999F1DEC23F200CFCD82 /* PBLViewController.m */; };
+		0B9099AC1DEC259E00CFCD82 /* FMHotBrandLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099A41DEC259E00CFCD82 /* FMHotBrandLayout.m */; };
+		0B9099AD1DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099A71DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.m */; };
+		0B9099AE1DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099A81DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.xib */; };
+		0B9099AF1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099AA1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m */; };
+		0B9099B01DEC259E00CFCD82 /* FMHotBrandCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099AB1DEC259E00CFCD82 /* FMHotBrandCollectionCell.xib */; };
+		0B9099B31DEC25D200CFCD82 /* OtherWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099B21DEC25D200CFCD82 /* OtherWaterViewController.m */; };
+		0B9099B91DEC26C500CFCD82 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099B61DEC26C500CFCD82 /* CollectionViewCell.m */; };
+		0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099B81DEC26C500CFCD82 /* PCollectionViewLayout.m */; };
+		0B9099BD1DEC26D900CFCD82 /* EasyWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099BC1DEC26D900CFCD82 /* EasyWaterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,6 +259,62 @@
 		0B9099461DEBE65800CFCD82 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		0B9099471DEBE65800CFCD82 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		0B9099481DEBE65800CFCD82 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0B9099571DEC23BF00CFCD82 /* SimpleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCollectionViewCell.h; sourceTree = "<group>"; };
+		0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCollectionViewCell.m; sourceTree = "<group>"; };
+		0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCollectionViewCell.xib; sourceTree = "<group>"; };
+		0B90995A1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFootCollectionReusableView.h; sourceTree = "<group>"; };
+		0B90995B1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFootCollectionReusableView.m; sourceTree = "<group>"; };
+		0B90995C1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleFootCollectionReusableView.xib; sourceTree = "<group>"; };
+		0B90995D1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHeadCollectionReusableView.h; sourceTree = "<group>"; };
+		0B90995E1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHeadCollectionReusableView.m; sourceTree = "<group>"; };
+		0B90995F1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleHeadCollectionReusableView.xib; sourceTree = "<group>"; };
+		0B9099601DEC23BF00CFCD82 /* UICollectionViewSimpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewSimpleController.h; sourceTree = "<group>"; };
+		0B9099611DEC23BF00CFCD82 /* UICollectionViewSimpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewSimpleController.m; sourceTree = "<group>"; };
+		0B9099631DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC_WaterCollectionViewCell.h; sourceTree = "<group>"; };
+		0B9099641DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AC_WaterCollectionViewCell.m; sourceTree = "<group>"; };
+		0B9099651DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AC_WaterCollectionViewCell.xib; sourceTree = "<group>"; };
+		0B9099661DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC_WaterCollectionViewLayout.h; sourceTree = "<group>"; };
+		0B9099671DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AC_WaterCollectionViewLayout.m; sourceTree = "<group>"; };
+		0B9099691DEC23BF00CFCD82 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		0B90996A1DEC23BF00CFCD82 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0B90996B1DEC23BF00CFCD82 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		0B90996C1DEC23BF00CFCD82 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		0B90996D1DEC23BF00CFCD82 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		0B90996E1DEC23BF00CFCD82 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		0B90996F1DEC23BF00CFCD82 /* 14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14.jpg; sourceTree = "<group>"; };
+		0B9099701DEC23BF00CFCD82 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		0B9099711DEC23BF00CFCD82 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		0B9099721DEC23BF00CFCD82 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = "<group>"; };
+		0B9099731DEC23BF00CFCD82 /* 18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 18.jpg; sourceTree = "<group>"; };
+		0B9099741DEC23BF00CFCD82 /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		0B9099751DEC23BF00CFCD82 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		0B9099761DEC23BF00CFCD82 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		0B9099771DEC23BF00CFCD82 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		0B9099781DEC23BF00CFCD82 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		0B9099791DEC23BF00CFCD82 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		0B90997A1DEC23BF00CFCD82 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		0B90997B1DEC23BF00CFCD82 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		0B90997C1DEC23BF00CFCD82 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		0B90997D1DEC23BF00CFCD82 /* WaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
+		0B90997E1DEC23BF00CFCD82 /* WaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
+		0B90999E1DEC23F200CFCD82 /* PBLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLViewController.h; sourceTree = "<group>"; };
+		0B90999F1DEC23F200CFCD82 /* PBLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLViewController.m; sourceTree = "<group>"; };
+		0B9099A31DEC259E00CFCD82 /* FMHotBrandLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMHotBrandLayout.h; sourceTree = "<group>"; };
+		0B9099A41DEC259E00CFCD82 /* FMHotBrandLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMHotBrandLayout.m; sourceTree = "<group>"; };
+		0B9099A61DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMHotBrandCeollctionSectionHeadView.h; sourceTree = "<group>"; };
+		0B9099A71DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMHotBrandCeollctionSectionHeadView.m; sourceTree = "<group>"; };
+		0B9099A81DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMHotBrandCeollctionSectionHeadView.xib; sourceTree = "<group>"; };
+		0B9099A91DEC259E00CFCD82 /* FMHotBrandCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMHotBrandCollectionCell.h; sourceTree = "<group>"; };
+		0B9099AA1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMHotBrandCollectionCell.m; sourceTree = "<group>"; };
+		0B9099AB1DEC259E00CFCD82 /* FMHotBrandCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMHotBrandCollectionCell.xib; sourceTree = "<group>"; };
+		0B9099B11DEC25D200CFCD82 /* OtherWaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherWaterViewController.h; sourceTree = "<group>"; };
+		0B9099B21DEC25D200CFCD82 /* OtherWaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherWaterViewController.m; sourceTree = "<group>"; };
+		0B9099B51DEC26C500CFCD82 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		0B9099B61DEC26C500CFCD82 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		0B9099B71DEC26C500CFCD82 /* PCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCollectionViewLayout.h; sourceTree = "<group>"; };
+		0B9099B81DEC26C500CFCD82 /* PCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCollectionViewLayout.m; sourceTree = "<group>"; };
+		0B9099BB1DEC26D900CFCD82 /* EasyWaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWaterViewController.h; sourceTree = "<group>"; };
+		0B9099BC1DEC26D900CFCD82 /* EasyWaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyWaterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +429,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B9099541DEC23BF00CFCD82 /* UICollectionView（瀑布流） */,
 				0B90990A1DEBE5A500CFCD82 /* UNlock(手势解锁) */,
 				0B9098F01DEBE55500CFCD82 /* Search */,
 				0B12C3F01DB78AF100A9A348 /* BigOrSmallImage(大图和小图下载) */,
@@ -512,6 +610,126 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		0B9099541DEC23BF00CFCD82 /* UICollectionView（瀑布流） */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099B41DEC26C500CFCD82 /* EasyWater(简单瀑布流) */,
+				0B9099A11DEC259E00CFCD82 /* otherWater */,
+				0B9099561DEC23BF00CFCD82 /* simple */,
+				0B9099621DEC23BF00CFCD82 /* water */,
+				0B90999E1DEC23F200CFCD82 /* PBLViewController.h */,
+				0B90999F1DEC23F200CFCD82 /* PBLViewController.m */,
+			);
+			name = "UICollectionView（瀑布流）";
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		0B9099561DEC23BF00CFCD82 /* simple */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099571DEC23BF00CFCD82 /* SimpleCollectionViewCell.h */,
+				0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */,
+				0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */,
+				0B90995A1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.h */,
+				0B90995B1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m */,
+				0B90995C1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib */,
+				0B90995D1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.h */,
+				0B90995E1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m */,
+				0B90995F1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib */,
+				0B9099601DEC23BF00CFCD82 /* UICollectionViewSimpleController.h */,
+				0B9099611DEC23BF00CFCD82 /* UICollectionViewSimpleController.m */,
+			);
+			path = simple;
+			sourceTree = "<group>";
+		};
+		0B9099621DEC23BF00CFCD82 /* water */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099631DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.h */,
+				0B9099641DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m */,
+				0B9099651DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib */,
+				0B9099661DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.h */,
+				0B9099671DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.m */,
+				0B9099681DEC23BF00CFCD82 /* image */,
+				0B90997D1DEC23BF00CFCD82 /* WaterViewController.h */,
+				0B90997E1DEC23BF00CFCD82 /* WaterViewController.m */,
+			);
+			path = water;
+			sourceTree = "<group>";
+		};
+		0B9099681DEC23BF00CFCD82 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099691DEC23BF00CFCD82 /* 0.jpg */,
+				0B90996A1DEC23BF00CFCD82 /* 1.jpg */,
+				0B90996B1DEC23BF00CFCD82 /* 10.jpg */,
+				0B90996C1DEC23BF00CFCD82 /* 11.jpg */,
+				0B90996D1DEC23BF00CFCD82 /* 12.jpg */,
+				0B90996E1DEC23BF00CFCD82 /* 13.jpg */,
+				0B90996F1DEC23BF00CFCD82 /* 14.jpg */,
+				0B9099701DEC23BF00CFCD82 /* 15.jpg */,
+				0B9099711DEC23BF00CFCD82 /* 16.jpg */,
+				0B9099721DEC23BF00CFCD82 /* 17.jpg */,
+				0B9099731DEC23BF00CFCD82 /* 18.jpg */,
+				0B9099741DEC23BF00CFCD82 /* 19.jpg */,
+				0B9099751DEC23BF00CFCD82 /* 2.jpg */,
+				0B9099761DEC23BF00CFCD82 /* 3.jpg */,
+				0B9099771DEC23BF00CFCD82 /* 4.jpg */,
+				0B9099781DEC23BF00CFCD82 /* 5.jpg */,
+				0B9099791DEC23BF00CFCD82 /* 6.jpg */,
+				0B90997A1DEC23BF00CFCD82 /* 7.jpg */,
+				0B90997B1DEC23BF00CFCD82 /* 8.jpg */,
+				0B90997C1DEC23BF00CFCD82 /* 9.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		0B9099A11DEC259E00CFCD82 /* otherWater */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099A21DEC259E00CFCD82 /* layout */,
+				0B9099A51DEC259E00CFCD82 /* View */,
+				0B9099B11DEC25D200CFCD82 /* OtherWaterViewController.h */,
+				0B9099B21DEC25D200CFCD82 /* OtherWaterViewController.m */,
+			);
+			path = otherWater;
+			sourceTree = "<group>";
+		};
+		0B9099A21DEC259E00CFCD82 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099A31DEC259E00CFCD82 /* FMHotBrandLayout.h */,
+				0B9099A41DEC259E00CFCD82 /* FMHotBrandLayout.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		0B9099A51DEC259E00CFCD82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099A61DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.h */,
+				0B9099A71DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.m */,
+				0B9099A81DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.xib */,
+				0B9099A91DEC259E00CFCD82 /* FMHotBrandCollectionCell.h */,
+				0B9099AA1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m */,
+				0B9099AB1DEC259E00CFCD82 /* FMHotBrandCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B9099B41DEC26C500CFCD82 /* EasyWater(简单瀑布流) */ = {
+			isa = PBXGroup;
+			children = (
+				0B9099B51DEC26C500CFCD82 /* CollectionViewCell.h */,
+				0B9099B61DEC26C500CFCD82 /* CollectionViewCell.m */,
+				0B9099B71DEC26C500CFCD82 /* PCollectionViewLayout.h */,
+				0B9099B81DEC26C500CFCD82 /* PCollectionViewLayout.m */,
+				0B9099BB1DEC26D900CFCD82 /* EasyWaterViewController.h */,
+				0B9099BC1DEC26D900CFCD82 /* EasyWaterViewController.m */,
+			);
+			path = "EasyWater(简单瀑布流)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -570,19 +788,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9099971DEC23BF00CFCD82 /* 4.jpg in Resources */,
 				0B2DF7E51DB750A8002FC216 /* LaunchScreen.storyboard in Resources */,
+				0B9099921DEC23BF00CFCD82 /* 17.jpg in Resources */,
+				0B9099951DEC23BF00CFCD82 /* 2.jpg in Resources */,
+				0B90998E1DEC23BF00CFCD82 /* 13.jpg in Resources */,
+				0B90998B1DEC23BF00CFCD82 /* 10.jpg in Resources */,
+				0B9099821DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib in Resources */,
+				0B90998D1DEC23BF00CFCD82 /* 12.jpg in Resources */,
+				0B9099961DEC23BF00CFCD82 /* 3.jpg in Resources */,
 				0B90992A1DEBE5A500CFCD82 /* 手势&指纹.gif in Resources */,
 				0B9099251DEBE5A500CFCD82 /* gesture_node_highlighted@3x.png in Resources */,
+				0B9099AE1DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.xib in Resources */,
+				0B9099911DEC23BF00CFCD82 /* 16.jpg in Resources */,
 				0B9099271DEBE5A500CFCD82 /* gesture_node_normal@3x.png in Resources */,
+				0B9099B01DEC259E00CFCD82 /* FMHotBrandCollectionCell.xib in Resources */,
 				0B9099021DEBE55500CFCD82 /* PYSearch.bundle in Resources */,
+				0B9099991DEC23BF00CFCD82 /* 6.jpg in Resources */,
+				0B90999A1DEC23BF00CFCD82 /* 7.jpg in Resources */,
+				0B9099801DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib in Resources */,
+				0B90998F1DEC23BF00CFCD82 /* 14.jpg in Resources */,
+				0B9099841DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib in Resources */,
 				0B9099221DEBE5A500CFCD82 /* gesture_node_error@2x.png in Resources */,
+				0B9099901DEC23BF00CFCD82 /* 15.jpg in Resources */,
+				0B90998A1DEC23BF00CFCD82 /* 1.jpg in Resources */,
+				0B90998C1DEC23BF00CFCD82 /* 11.jpg in Resources */,
 				0B9099491DEBE65800CFCD82 /* Info.plist in Resources */,
 				0B9099211DEBE5A500CFCD82 /* bg.png in Resources */,
 				0B9099261DEBE5A500CFCD82 /* gesture_node_normal@2x.png in Resources */,
+				0B9099891DEC23BF00CFCD82 /* 0.jpg in Resources */,
+				0B90999C1DEC23BF00CFCD82 /* 9.jpg in Resources */,
+				0B9099981DEC23BF00CFCD82 /* 5.jpg in Resources */,
 				0B9099231DEBE5A500CFCD82 /* gesture_node_error@3x.png in Resources */,
 				0B9099281DEBE5A500CFCD82 /* gesture_node_success@2x.png in Resources */,
+				0B9099931DEC23BF00CFCD82 /* 18.jpg in Resources */,
+				0B9099941DEC23BF00CFCD82 /* 19.jpg in Resources */,
 				0B9099291DEBE5A500CFCD82 /* gesture_node_success@3x.png in Resources */,
+				0B90999B1DEC23BF00CFCD82 /* 8.jpg in Resources */,
 				0B2DF7E21DB750A8002FC216 /* Assets.xcassets in Resources */,
+				0B9099871DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib in Resources */,
 				0B9099241DEBE5A500CFCD82 /* gesture_node_highlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,22 +839,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */,
+				0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */,
 				0B2DF84D1DB755F8002FC216 /* AFURLRequestSerialization.m in Sources */,
 				0B12C4441DB78E1E00A9A348 /* SDWebImageManager.m in Sources */,
+				0B9099881DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.m in Sources */,
 				0B9099061DEBE55500CFCD82 /* UIColor+PYExtension.m in Sources */,
+				0B9099BD1DEC26D900CFCD82 /* EasyWaterViewController.m in Sources */,
 				0B12C4401DB78E1E00A9A348 /* SDWebImageCompat.m in Sources */,
 				0B90991E1DEBE5A500CFCD82 /* DWFingerprintUNlock.m in Sources */,
 				0B12C4451DB78E1E00A9A348 /* SDWebImagePrefetcher.m in Sources */,
 				0B9099501DEBE65800CFCD82 /* NSArray+MASAdditions.m in Sources */,
 				0B90994A1DEBE65800CFCD82 /* MASCompositeConstraint.m in Sources */,
+				0B9099A01DEC23F200CFCD82 /* PBLViewController.m in Sources */,
 				0B12C44A1DB78E1E00A9A348 /* UIImageView+WebCache.m in Sources */,
 				0B2DF8551DB755F8002FC216 /* UIImageView+AFNetworking.m in Sources */,
+				0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */,
+				0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */,
 				0B9099511DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0B9099861DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m in Sources */,
+				0B9099B31DEC25D200CFCD82 /* OtherWaterViewController.m in Sources */,
 				0B12C43F1DB78E1E00A9A348 /* SDImageCache.m in Sources */,
 				0B9099071DEBE55500CFCD82 /* UIView+PYExtension.m in Sources */,
 				0B9099081DEBE55500CFCD82 /* PYSearchExampleController.m in Sources */,
 				0B12C4491DB78E1E00A9A348 /* UIImageView+HighlightedWebCache.m in Sources */,
 				0B2DF7DD1DB750A8002FC216 /* ViewController.m in Sources */,
+				0B9099AC1DEC259E00CFCD82 /* FMHotBrandLayout.m in Sources */,
 				0B9099201DEBE5A500CFCD82 /* DWiPhoneType.m in Sources */,
 				0B9099531DEBE65800CFCD82 /* ViewController+MASAdditions.m in Sources */,
 				0B12C4461DB78E1E00A9A348 /* UIButton+WebCache.m in Sources */,
@@ -618,6 +871,7 @@
 				0B2DF8511DB755F8002FC216 /* AFImageDownloader.m in Sources */,
 				0B90992D1DEBE5C100CFCD82 /* UNlockViewController.m in Sources */,
 				0B2DF8501DB755F8002FC216 /* AFAutoPurgingImageCache.m in Sources */,
+				0B9099AF1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m in Sources */,
 				0B9099091DEBE55500CFCD82 /* PYTempViewController.m in Sources */,
 				0B2DF7DA1DB750A8002FC216 /* AppDelegate.m in Sources */,
 				0B2DF8541DB755F8002FC216 /* UIButton+AFNetworking.m in Sources */,
@@ -628,6 +882,7 @@
 				0B12C44B1DB78E1E00A9A348 /* UIView+WebCacheOperation.m in Sources */,
 				0B90994C1DEBE65800CFCD82 /* MASConstraintMaker.m in Sources */,
 				0B2DF84F1DB755F8002FC216 /* AFURLSessionManager.m in Sources */,
+				0B9099851DEC23BF00CFCD82 /* UICollectionViewSimpleController.m in Sources */,
 				0B12C4481DB78E1E00A9A348 /* UIImage+MultiFormat.m in Sources */,
 				0B12C4411DB78E1E00A9A348 /* SDWebImageDecoder.m in Sources */,
 				0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */,
@@ -640,11 +895,15 @@
 				0B90994F1DEBE65800CFCD82 /* MASViewConstraint.m in Sources */,
 				0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */,
 				0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */,
+				0B9099AD1DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.m in Sources */,
 				0B2DF84E1DB755F8002FC216 /* AFURLResponseSerialization.m in Sources */,
+				0B9099B91DEC26C500CFCD82 /* CollectionViewCell.m in Sources */,
 				0B2DF84B1DB755F8002FC216 /* AFNetworkReachabilityManager.m in Sources */,
+				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0B90994D1DEBE65800CFCD82 /* MASLayoutConstraint.m in Sources */,
 				0B12C4421DB78E1E00A9A348 /* SDWebImageDownloader.m in Sources */,
 				0B2DF84C1DB755F8002FC216 /* AFSecurityPolicy.m in Sources */,
+				0B90999D1DEC23C000CFCD82 /* WaterViewController.m in Sources */,
 				0B2DF84A1DB755F8002FC216 /* AFHTTPSessionManager.m in Sources */,
 				0B2DF7D71DB750A8002FC216 /* main.m in Sources */,
 				0B2DF8521DB755F8002FC216 /* AFNetworkActivityIndicatorManager.m in Sources */,

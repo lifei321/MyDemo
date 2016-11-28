@@ -35,10 +35,13 @@
 
     cellModel *model3 = [cellModel cellModelWithName:@"手势解锁" controller:@"UNlockViewController"];
 
-    
+    cellModel *model4 = [cellModel cellModelWithName:@"collection基本上使用和高级瀑布流" controller:@"PBLViewController"];
+
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
     [self.dataSource addObject:model3];
+    
+    [self.dataSource addObject:model4];
 
     
 }
