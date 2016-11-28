@@ -44,6 +44,14 @@
 		0B2DF8561DB755F8002FC216 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DF8451DB755F8002FC216 /* UIProgressView+AFNetworking.m */; };
 		0B2DF8571DB755F8002FC216 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DF8471DB755F8002FC216 /* UIRefreshControl+AFNetworking.m */; };
 		0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DF8491DB755F8002FC216 /* UIWebView+AFNetworking.m */; };
+		0B9098E41DEBE37200CFCD82 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B9098D81DEBE37200CFCD82 /* PYSearch.bundle */; };
+		0B9098E51DEBE37200CFCD82 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098DB1DEBE37200CFCD82 /* PYSearchConst.m */; };
+		0B9098E61DEBE37200CFCD82 /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098DD1DEBE37200CFCD82 /* PYSearchSuggestionViewController.m */; };
+		0B9098E71DEBE37200CFCD82 /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098DF1DEBE37200CFCD82 /* PYSearchViewController.m */; };
+		0B9098E81DEBE37200CFCD82 /* UIColor+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098E11DEBE37200CFCD82 /* UIColor+PYExtension.m */; };
+		0B9098E91DEBE37200CFCD82 /* UIView+PYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098E31DEBE37200CFCD82 /* UIView+PYExtension.m */; };
+		0B9098EE1DEBE3AB00CFCD82 /* PYSearchExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098EB1DEBE3AB00CFCD82 /* PYSearchExampleController.m */; };
+		0B9098EF1DEBE3AB00CFCD82 /* PYTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098ED1DEBE3AB00CFCD82 /* PYTempViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +132,22 @@
 		0B2DF8471DB755F8002FC216 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		0B2DF8481DB755F8002FC216 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		0B2DF8491DB755F8002FC216 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		0B9098D81DEBE37200CFCD82 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		0B9098D91DEBE37200CFCD82 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		0B9098DA1DEBE37200CFCD82 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		0B9098DB1DEBE37200CFCD82 /* PYSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		0B9098DC1DEBE37200CFCD82 /* PYSearchSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		0B9098DD1DEBE37200CFCD82 /* PYSearchSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		0B9098DE1DEBE37200CFCD82 /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		0B9098DF1DEBE37200CFCD82 /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		0B9098E01DEBE37200CFCD82 /* UIColor+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYExtension.h"; sourceTree = "<group>"; };
+		0B9098E11DEBE37200CFCD82 /* UIColor+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYExtension.m"; sourceTree = "<group>"; };
+		0B9098E21DEBE37200CFCD82 /* UIView+PYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYExtension.h"; sourceTree = "<group>"; };
+		0B9098E31DEBE37200CFCD82 /* UIView+PYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYExtension.m"; sourceTree = "<group>"; };
+		0B9098EA1DEBE3AB00CFCD82 /* PYSearchExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchExampleController.h; sourceTree = "<group>"; };
+		0B9098EB1DEBE3AB00CFCD82 /* PYSearchExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchExampleController.m; sourceTree = "<group>"; };
+		0B9098EC1DEBE3AB00CFCD82 /* PYTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYTempViewController.h; sourceTree = "<group>"; };
+		0B9098ED1DEBE3AB00CFCD82 /* PYTempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYTempViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +262,11 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B9098D61DEBE35D00CFCD82 /* Search */,
+				0B9098EA1DEBE3AB00CFCD82 /* PYSearchExampleController.h */,
+				0B9098EB1DEBE3AB00CFCD82 /* PYSearchExampleController.m */,
+				0B9098EC1DEBE3AB00CFCD82 /* PYTempViewController.h */,
+				0B9098ED1DEBE3AB00CFCD82 /* PYTempViewController.m */,
 				0B12C3F01DB78AF100A9A348 /* BigOrSmallImage(大图和小图下载) */,
 				0B12C3EC1DB78AD100A9A348 /* CookieController */,
 			);
@@ -309,6 +338,33 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		0B9098D61DEBE35D00CFCD82 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0B9098D71DEBE37200CFCD82 /* PYSearch */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0B9098D71DEBE37200CFCD82 /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				0B9098D81DEBE37200CFCD82 /* PYSearch.bundle */,
+				0B9098D91DEBE37200CFCD82 /* PYSearch.h */,
+				0B9098DA1DEBE37200CFCD82 /* PYSearchConst.h */,
+				0B9098DB1DEBE37200CFCD82 /* PYSearchConst.m */,
+				0B9098DC1DEBE37200CFCD82 /* PYSearchSuggestionViewController.h */,
+				0B9098DD1DEBE37200CFCD82 /* PYSearchSuggestionViewController.m */,
+				0B9098DE1DEBE37200CFCD82 /* PYSearchViewController.h */,
+				0B9098DF1DEBE37200CFCD82 /* PYSearchViewController.m */,
+				0B9098E01DEBE37200CFCD82 /* UIColor+PYExtension.h */,
+				0B9098E11DEBE37200CFCD82 /* UIColor+PYExtension.m */,
+				0B9098E21DEBE37200CFCD82 /* UIView+PYExtension.h */,
+				0B9098E31DEBE37200CFCD82 /* UIView+PYExtension.m */,
+			);
+			path = PYSearch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2DF7E51DB750A8002FC216 /* LaunchScreen.storyboard in Resources */,
+				0B9098E41DEBE37200CFCD82 /* PYSearch.bundle in Resources */,
 				0B2DF7E21DB750A8002FC216 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,19 +436,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9098E51DEBE37200CFCD82 /* PYSearchConst.m in Sources */,
 				0B2DF84D1DB755F8002FC216 /* AFURLRequestSerialization.m in Sources */,
 				0B12C4441DB78E1E00A9A348 /* SDWebImageManager.m in Sources */,
+				0B9098E81DEBE37200CFCD82 /* UIColor+PYExtension.m in Sources */,
 				0B12C4401DB78E1E00A9A348 /* SDWebImageCompat.m in Sources */,
 				0B12C4451DB78E1E00A9A348 /* SDWebImagePrefetcher.m in Sources */,
 				0B12C44A1DB78E1E00A9A348 /* UIImageView+WebCache.m in Sources */,
 				0B2DF8551DB755F8002FC216 /* UIImageView+AFNetworking.m in Sources */,
 				0B12C43F1DB78E1E00A9A348 /* SDImageCache.m in Sources */,
+				0B9098E91DEBE37200CFCD82 /* UIView+PYExtension.m in Sources */,
+				0B9098EE1DEBE3AB00CFCD82 /* PYSearchExampleController.m in Sources */,
 				0B12C4491DB78E1E00A9A348 /* UIImageView+HighlightedWebCache.m in Sources */,
 				0B2DF7DD1DB750A8002FC216 /* ViewController.m in Sources */,
 				0B12C4461DB78E1E00A9A348 /* UIButton+WebCache.m in Sources */,
 				0B2DF8561DB755F8002FC216 /* UIProgressView+AFNetworking.m in Sources */,
 				0B2DF8511DB755F8002FC216 /* AFImageDownloader.m in Sources */,
 				0B2DF8501DB755F8002FC216 /* AFAutoPurgingImageCache.m in Sources */,
+				0B9098EF1DEBE3AB00CFCD82 /* PYTempViewController.m in Sources */,
 				0B2DF7DA1DB750A8002FC216 /* AppDelegate.m in Sources */,
 				0B2DF8541DB755F8002FC216 /* UIButton+AFNetworking.m in Sources */,
 				0B12C4471DB78E1E00A9A348 /* UIImage+GIF.m in Sources */,
@@ -403,6 +465,7 @@
 				0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */,
 				0B2DF8571DB755F8002FC216 /* UIRefreshControl+AFNetworking.m in Sources */,
 				0B12C4431DB78E1E00A9A348 /* SDWebImageDownloaderOperation.m in Sources */,
+				0B9098E61DEBE37200CFCD82 /* PYSearchSuggestionViewController.m in Sources */,
 				0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */,
 				0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */,
 				0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */,
@@ -414,6 +477,7 @@
 				0B2DF7D71DB750A8002FC216 /* main.m in Sources */,
 				0B2DF8521DB755F8002FC216 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				0B2DF7EE1DB751A7002FC216 /* cellModel.m in Sources */,
+				0B9098E71DEBE37200CFCD82 /* PYSearchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

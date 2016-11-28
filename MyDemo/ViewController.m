@@ -29,9 +29,14 @@
     
     self.dataSource = [NSMutableArray new];
     
-    cellModel *model1 = [cellModel cellModelWithName:@"cookie" controller:@"CookieController"];
+    cellModel *model1 = [cellModel cellModelWithName:@"cookie--cookie的存取和用法" controller:@"CookieController"];
+    
+    cellModel *model2 = [cellModel cellModelWithName:@"search--各种搜索方式设置" controller:@"PYSearchExampleController"];
+
     
     [self.dataSource addObject:model1];
+    [self.dataSource addObject:model2];
+
     
 }
 
