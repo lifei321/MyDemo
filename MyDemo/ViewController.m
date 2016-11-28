@@ -33,9 +33,12 @@
     
     cellModel *model2 = [cellModel cellModelWithName:@"search--各种搜索方式设置" controller:@"PYSearchExampleController"];
 
+    cellModel *model3 = [cellModel cellModelWithName:@"手势解锁" controller:@"UNlockViewController"];
+
     
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
+    [self.dataSource addObject:model3];
 
     
 }
