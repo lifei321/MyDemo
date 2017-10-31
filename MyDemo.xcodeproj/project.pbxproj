@@ -44,6 +44,15 @@
 		0B2DF8561DB755F8002FC216 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DF8451DB755F8002FC216 /* UIProgressView+AFNetworking.m */; };
 		0B2DF8571DB755F8002FC216 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DF8471DB755F8002FC216 /* UIRefreshControl+AFNetworking.m */; };
 		0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DF8491DB755F8002FC216 /* UIWebView+AFNetworking.m */; };
+		0B3AEBAA1FA821F40045EA28 /* LogisticsInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AEB9D1FA821760045EA28 /* LogisticsInfoViewController.m */; };
+		0B3AEBAB1FA822270045EA28 /* LogisticsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AEBA71FA821760045EA28 /* LogisticsTableViewCell.m */; };
+		0B3AEBAC1FA8222E0045EA28 /* LogisticsTableViewCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */; };
+		0B3AEBAD1FA8223F0045EA28 /* LogisticsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AEBA01FA821760045EA28 /* LogisticsInfo.m */; };
+		0B3AEBAE1FA8228C0045EA28 /* logisticsInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B3AEBA11FA821760045EA28 /* logisticsInfo.plist */; };
+		0B3AEBAF1FA824840045EA28 /* NSString+textStringToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3AEBA41FA821760045EA28 /* NSString+textStringToSize.m */; };
+		0B3AEBB01FA824D20045EA28 /* WenziZhedieTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535B1F985B5B0044CB6F /* WenziZhedieTableViewController.h */; };
+		0B3AEBB11FA824DC0045EA28 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B53541F9859FD0044CB6F /* Tool.m */; };
+		0B3AEBB21FA824E20045EA28 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535A1F9859FD0044CB6F /* TableViewCell.m */; };
 		0B9099021DEBE55500CFCD82 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B9098F21DEBE55500CFCD82 /* PYSearch.bundle */; };
 		0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098F51DEBE55500CFCD82 /* PYSearchConst.m */; };
 		0B9099041DEBE55500CFCD82 /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098F71DEBE55500CFCD82 /* PYSearchSuggestionViewController.m */; };
@@ -118,6 +127,7 @@
 		0B9099B91DEC26C500CFCD82 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099B61DEC26C500CFCD82 /* CollectionViewCell.m */; };
 		0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099B81DEC26C500CFCD82 /* PCollectionViewLayout.m */; };
 		0B9099BD1DEC26D900CFCD82 /* EasyWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099BC1DEC26D900CFCD82 /* EasyWaterViewController.m */; };
+		0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -198,6 +208,17 @@
 		0B2DF8471DB755F8002FC216 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		0B2DF8481DB755F8002FC216 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		0B2DF8491DB755F8002FC216 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		0B3AEB9C1FA821760045EA28 /* LogisticsInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsInfoViewController.h; sourceTree = "<group>"; };
+		0B3AEB9D1FA821760045EA28 /* LogisticsInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsInfoViewController.m; sourceTree = "<group>"; };
+		0B3AEB9F1FA821760045EA28 /* LogisticsInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsInfo.h; sourceTree = "<group>"; };
+		0B3AEBA01FA821760045EA28 /* LogisticsInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsInfo.m; sourceTree = "<group>"; };
+		0B3AEBA11FA821760045EA28 /* logisticsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = logisticsInfo.plist; sourceTree = "<group>"; };
+		0B3AEBA31FA821760045EA28 /* NSString+textStringToSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+textStringToSize.h"; sourceTree = "<group>"; };
+		0B3AEBA41FA821760045EA28 /* NSString+textStringToSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+textStringToSize.m"; sourceTree = "<group>"; };
+		0B3AEBA61FA821760045EA28 /* LogisticsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsTableViewCell.h; sourceTree = "<group>"; };
+		0B3AEBA71FA821760045EA28 /* LogisticsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsTableViewCell.m; sourceTree = "<group>"; };
+		0B3AEBA81FA821760045EA28 /* LogisticsTableViewCellFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsTableViewCellFrame.h; sourceTree = "<group>"; };
+		0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsTableViewCellFrame.m; sourceTree = "<group>"; };
 		0B9098F21DEBE55500CFCD82 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
 		0B9098F31DEBE55500CFCD82 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
 		0B9098F41DEBE55500CFCD82 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
@@ -315,6 +336,12 @@
 		0B9099B81DEC26C500CFCD82 /* PCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCollectionViewLayout.m; sourceTree = "<group>"; };
 		0B9099BB1DEC26D900CFCD82 /* EasyWaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWaterViewController.h; sourceTree = "<group>"; };
 		0B9099BC1DEC26D900CFCD82 /* EasyWaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyWaterViewController.m; sourceTree = "<group>"; };
+		0B9B53531F9859FD0044CB6F /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		0B9B53541F9859FD0044CB6F /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		0B9B53591F9859FD0044CB6F /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		0B9B535A1F9859FD0044CB6F /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		0B9B535B1F985B5B0044CB6F /* WenziZhedieTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenziZhedieTableViewController.h; sourceTree = "<group>"; };
+		0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenziZhedieTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -429,6 +456,8 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B3AEB9A1FA821760045EA28 /* wuliu(物流轴线) */,
+				0B9B53511F9859FD0044CB6F /* ContentZheDie(文字折叠) */,
 				0B9099541DEC23BF00CFCD82 /* UICollectionView（瀑布流） */,
 				0B90990A1DEBE5A500CFCD82 /* UNlock(手势解锁) */,
 				0B9098F01DEBE55500CFCD82 /* Search */,
@@ -502,6 +531,56 @@
 				0B2DF8491DB755F8002FC216 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		0B3AEB9A1FA821760045EA28 /* wuliu(物流轴线) */ = {
+			isa = PBXGroup;
+			children = (
+				0B3AEB9B1FA821760045EA28 /* Controller */,
+				0B3AEB9E1FA821760045EA28 /* Model */,
+				0B3AEBA21FA821760045EA28 /* Other */,
+				0B3AEBA51FA821760045EA28 /* View */,
+			);
+			path = "wuliu(物流轴线)";
+			sourceTree = "<group>";
+		};
+		0B3AEB9B1FA821760045EA28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B3AEB9C1FA821760045EA28 /* LogisticsInfoViewController.h */,
+				0B3AEB9D1FA821760045EA28 /* LogisticsInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0B3AEB9E1FA821760045EA28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B3AEB9F1FA821760045EA28 /* LogisticsInfo.h */,
+				0B3AEBA01FA821760045EA28 /* LogisticsInfo.m */,
+				0B3AEBA11FA821760045EA28 /* logisticsInfo.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B3AEBA21FA821760045EA28 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0B3AEBA31FA821760045EA28 /* NSString+textStringToSize.h */,
+				0B3AEBA41FA821760045EA28 /* NSString+textStringToSize.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0B3AEBA51FA821760045EA28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B3AEBA61FA821760045EA28 /* LogisticsTableViewCell.h */,
+				0B3AEBA71FA821760045EA28 /* LogisticsTableViewCell.m */,
+				0B3AEBA81FA821760045EA28 /* LogisticsTableViewCellFrame.h */,
+				0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		0B9098F01DEBE55500CFCD82 /* Search */ = {
@@ -730,6 +809,43 @@
 			path = "EasyWater(简单瀑布流)";
 			sourceTree = "<group>";
 		};
+		0B9B53511F9859FD0044CB6F /* ContentZheDie(文字折叠) */ = {
+			isa = PBXGroup;
+			children = (
+				0B9B53521F9859FD0044CB6F /* Tool */,
+				0B9B53551F9859FD0044CB6F /* VC */,
+				0B9B53581F9859FD0044CB6F /* View */,
+			);
+			path = "ContentZheDie(文字折叠)";
+			sourceTree = "<group>";
+		};
+		0B9B53521F9859FD0044CB6F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0B9B53531F9859FD0044CB6F /* Tool.h */,
+				0B9B53541F9859FD0044CB6F /* Tool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0B9B53551F9859FD0044CB6F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				0B9B535B1F985B5B0044CB6F /* WenziZhedieTableViewController.h */,
+				0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		0B9B53581F9859FD0044CB6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B9B53591F9859FD0044CB6F /* TableViewCell.h */,
+				0B9B535A1F9859FD0044CB6F /* TableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -812,6 +928,7 @@
 				0B9099221DEBE5A500CFCD82 /* gesture_node_error@2x.png in Resources */,
 				0B9099901DEC23BF00CFCD82 /* 15.jpg in Resources */,
 				0B90998A1DEC23BF00CFCD82 /* 1.jpg in Resources */,
+				0B3AEBAE1FA8228C0045EA28 /* logisticsInfo.plist in Resources */,
 				0B90998C1DEC23BF00CFCD82 /* 11.jpg in Resources */,
 				0B9099491DEBE65800CFCD82 /* Info.plist in Resources */,
 				0B9099211DEBE5A500CFCD82 /* bg.png in Resources */,
@@ -838,6 +955,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3AEBB21FA824E20045EA28 /* TableViewCell.m in Sources */,
+				0B3AEBB11FA824DC0045EA28 /* Tool.m in Sources */,
+				0B3AEBB01FA824D20045EA28 /* WenziZhedieTableViewController.h in Sources */,
+				0B3AEBAF1FA824840045EA28 /* NSString+textStringToSize.m in Sources */,
+				0B3AEBAD1FA8223F0045EA28 /* LogisticsInfo.m in Sources */,
+				0B3AEBAC1FA8222E0045EA28 /* LogisticsTableViewCellFrame.m in Sources */,
+				0B3AEBAB1FA822270045EA28 /* LogisticsTableViewCell.m in Sources */,
+				0B3AEBAA1FA821F40045EA28 /* LogisticsInfoViewController.m in Sources */,
+				0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */,
 				0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */,
 				0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */,
 				0B2DF84D1DB755F8002FC216 /* AFURLRequestSerialization.m in Sources */,

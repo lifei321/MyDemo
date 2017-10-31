@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 #import "cellModel.h"
-#import "CookieController.h"
-
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -37,11 +35,18 @@
 
     cellModel *model4 = [cellModel cellModelWithName:@"collection基本上使用和高级瀑布流" controller:@"PBLViewController"];
 
+    cellModel *model5 = [cellModel cellModelWithName:@"文字折叠" controller:@"WenziZhedieTableViewController"];
+
+    cellModel *model6 = [cellModel cellModelWithName:@"物流轴线" controller:@"LogisticsInfoViewController"];
+
+    
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
     [self.dataSource addObject:model3];
     
     [self.dataSource addObject:model4];
+    [self.dataSource addObject:model5];
+    [self.dataSource addObject:model6];
 
     
 }
