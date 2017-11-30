@@ -128,6 +128,12 @@
 		0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099B81DEC26C500CFCD82 /* PCollectionViewLayout.m */; };
 		0B9099BD1DEC26D900CFCD82 /* EasyWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099BC1DEC26D900CFCD82 /* EasyWaterViewController.m */; };
 		0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */; };
+		0BDA50C21FD0012B006BFA93 /* UIView+GoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50BB1FD0012B006BFA93 /* UIView+GoodView.m */; };
+		0BDA50C31FD0012B006BFA93 /* ZSAnalysisClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50BD1FD0012B006BFA93 /* ZSAnalysisClass.m */; };
+		0BDA50C41FD0012B006BFA93 /* province_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BDA50BF1FD0012B006BFA93 /* province_data.json */; };
+		0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50C01FD0012B006BFA93 /* CityNameModel.m */; };
+		0BDA50CB1FD0015E006BFA93 /* SelectCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50CA1FD0015E006BFA93 /* SelectCityViewController.m */; };
+		0BDA50CE1FD0017B006BFA93 /* CityPickerVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50CD1FD0017B006BFA93 /* CityPickerVeiw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -342,6 +348,17 @@
 		0B9B535A1F9859FD0044CB6F /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		0B9B535B1F985B5B0044CB6F /* WenziZhedieTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenziZhedieTableViewController.h; sourceTree = "<group>"; };
 		0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenziZhedieTableViewController.m; sourceTree = "<group>"; };
+		0BDA50BA1FD0012B006BFA93 /* ZSAnalysisClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAnalysisClass.h; sourceTree = "<group>"; };
+		0BDA50BB1FD0012B006BFA93 /* UIView+GoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoodView.m"; sourceTree = "<group>"; };
+		0BDA50BC1FD0012B006BFA93 /* UIView+GoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoodView.h"; sourceTree = "<group>"; };
+		0BDA50BD1FD0012B006BFA93 /* ZSAnalysisClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAnalysisClass.m; sourceTree = "<group>"; };
+		0BDA50BF1FD0012B006BFA93 /* province_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province_data.json; sourceTree = "<group>"; };
+		0BDA50C01FD0012B006BFA93 /* CityNameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityNameModel.m; sourceTree = "<group>"; };
+		0BDA50C11FD0012B006BFA93 /* CityNameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityNameModel.h; sourceTree = "<group>"; };
+		0BDA50C91FD0015E006BFA93 /* SelectCityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectCityViewController.h; sourceTree = "<group>"; };
+		0BDA50CA1FD0015E006BFA93 /* SelectCityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCityViewController.m; sourceTree = "<group>"; };
+		0BDA50CC1FD0017A006BFA93 /* CityPickerVeiw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerVeiw.h; sourceTree = "<group>"; };
+		0BDA50CD1FD0017B006BFA93 /* CityPickerVeiw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPickerVeiw.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +473,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0BDA50B81FD00097006BFA93 /* SelectCity(选择城市区) */,
 				0B3AEB9A1FA821760045EA28 /* wuliu(物流轴线) */,
 				0B9B53511F9859FD0044CB6F /* ContentZheDie(文字折叠) */,
 				0B9099541DEC23BF00CFCD82 /* UICollectionView（瀑布流） */,
@@ -846,6 +864,40 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0BDA50B81FD00097006BFA93 /* SelectCity(选择城市区) */ = {
+			isa = PBXGroup;
+			children = (
+				0BDA50B91FD0012B006BFA93 /* catgory */,
+				0BDA50BE1FD0012B006BFA93 /* model */,
+				0BDA50C91FD0015E006BFA93 /* SelectCityViewController.h */,
+				0BDA50CA1FD0015E006BFA93 /* SelectCityViewController.m */,
+				0BDA50CC1FD0017A006BFA93 /* CityPickerVeiw.h */,
+				0BDA50CD1FD0017B006BFA93 /* CityPickerVeiw.m */,
+			);
+			path = "SelectCity(选择城市区)";
+			sourceTree = "<group>";
+		};
+		0BDA50B91FD0012B006BFA93 /* catgory */ = {
+			isa = PBXGroup;
+			children = (
+				0BDA50BA1FD0012B006BFA93 /* ZSAnalysisClass.h */,
+				0BDA50BB1FD0012B006BFA93 /* UIView+GoodView.m */,
+				0BDA50BC1FD0012B006BFA93 /* UIView+GoodView.h */,
+				0BDA50BD1FD0012B006BFA93 /* ZSAnalysisClass.m */,
+			);
+			path = catgory;
+			sourceTree = "<group>";
+		};
+		0BDA50BE1FD0012B006BFA93 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0BDA50BF1FD0012B006BFA93 /* province_data.json */,
+				0BDA50C01FD0012B006BFA93 /* CityNameModel.m */,
+				0BDA50C11FD0012B006BFA93 /* CityNameModel.h */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -937,6 +989,7 @@
 				0B90999C1DEC23BF00CFCD82 /* 9.jpg in Resources */,
 				0B9099981DEC23BF00CFCD82 /* 5.jpg in Resources */,
 				0B9099231DEBE5A500CFCD82 /* gesture_node_error@3x.png in Resources */,
+				0BDA50C41FD0012B006BFA93 /* province_data.json in Resources */,
 				0B9099281DEBE5A500CFCD82 /* gesture_node_success@2x.png in Resources */,
 				0B9099931DEC23BF00CFCD82 /* 18.jpg in Resources */,
 				0B9099941DEC23BF00CFCD82 /* 19.jpg in Resources */,
@@ -966,6 +1019,7 @@
 				0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */,
 				0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */,
 				0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */,
+				0BDA50C31FD0012B006BFA93 /* ZSAnalysisClass.m in Sources */,
 				0B2DF84D1DB755F8002FC216 /* AFURLRequestSerialization.m in Sources */,
 				0B12C4441DB78E1E00A9A348 /* SDWebImageManager.m in Sources */,
 				0B9099881DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.m in Sources */,
@@ -1009,11 +1063,13 @@
 				0B90994C1DEBE65800CFCD82 /* MASConstraintMaker.m in Sources */,
 				0B2DF84F1DB755F8002FC216 /* AFURLSessionManager.m in Sources */,
 				0B9099851DEC23BF00CFCD82 /* UICollectionViewSimpleController.m in Sources */,
+				0BDA50CE1FD0017B006BFA93 /* CityPickerVeiw.m in Sources */,
 				0B12C4481DB78E1E00A9A348 /* UIImage+MultiFormat.m in Sources */,
 				0B12C4411DB78E1E00A9A348 /* SDWebImageDecoder.m in Sources */,
 				0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */,
 				0B90994B1DEBE65800CFCD82 /* MASConstraint.m in Sources */,
 				0B2DF8571DB755F8002FC216 /* UIRefreshControl+AFNetworking.m in Sources */,
+				0BDA50C21FD0012B006BFA93 /* UIView+GoodView.m in Sources */,
 				0B12C4431DB78E1E00A9A348 /* SDWebImageDownloaderOperation.m in Sources */,
 				0B9099041DEBE55500CFCD82 /* PYSearchSuggestionViewController.m in Sources */,
 				0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */,
@@ -1025,11 +1081,13 @@
 				0B2DF84E1DB755F8002FC216 /* AFURLResponseSerialization.m in Sources */,
 				0B9099B91DEC26C500CFCD82 /* CollectionViewCell.m in Sources */,
 				0B2DF84B1DB755F8002FC216 /* AFNetworkReachabilityManager.m in Sources */,
+				0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */,
 				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0B90994D1DEBE65800CFCD82 /* MASLayoutConstraint.m in Sources */,
 				0B12C4421DB78E1E00A9A348 /* SDWebImageDownloader.m in Sources */,
 				0B2DF84C1DB755F8002FC216 /* AFSecurityPolicy.m in Sources */,
 				0B90999D1DEC23C000CFCD82 /* WaterViewController.m in Sources */,
+				0BDA50CB1FD0015E006BFA93 /* SelectCityViewController.m in Sources */,
 				0B2DF84A1DB755F8002FC216 /* AFHTTPSessionManager.m in Sources */,
 				0B2DF7D71DB750A8002FC216 /* main.m in Sources */,
 				0B2DF8521DB755F8002FC216 /* AFNetworkActivityIndicatorManager.m in Sources */,

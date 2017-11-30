@@ -39,7 +39,8 @@
 
     cellModel *model6 = [cellModel cellModelWithName:@"物流轴线" controller:@"LogisticsInfoViewController"];
 
-    
+    cellModel *model7 = [cellModel cellModelWithName:@"选择城市 区、县" controller:@"SelectCityViewController"];
+
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
     [self.dataSource addObject:model3];
@@ -47,8 +48,7 @@
     [self.dataSource addObject:model4];
     [self.dataSource addObject:model5];
     [self.dataSource addObject:model6];
-
-    
+    [self.dataSource addObject:model7];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
