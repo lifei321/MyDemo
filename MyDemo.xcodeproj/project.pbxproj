@@ -130,6 +130,10 @@
 		0B9603461FD100E000916D00 /* BRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9603431FD100DF00916D00 /* BRTextField.m */; };
 		0B9603471FD100E000916D00 /* NSDate+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9603441FD100DF00916D00 /* NSDate+BRAdd.m */; };
 		0B96034A1FD100F100916D00 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9603491FD100F100916D00 /* PickerViewController.m */; };
+		0B9603521FD105DB00916D00 /* QJRequestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B96034C1FD105DB00916D00 /* QJRequestApi.m */; };
+		0B9603531FD105DB00916D00 /* QJCheckVersionUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B96034D1FD105DB00916D00 /* QJCheckVersionUpdate.m */; };
+		0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9603501FD105DB00916D00 /* QJVersionUpdateVIew.m */; };
+		0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9603561FD1062400916D00 /* CheckVersionViewController.m */; };
 		0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */; };
 		0BDA50C21FD0012B006BFA93 /* UIView+GoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50BB1FD0012B006BFA93 /* UIView+GoodView.m */; };
 		0BDA50C31FD0012B006BFA93 /* ZSAnalysisClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50BD1FD0012B006BFA93 /* ZSAnalysisClass.m */; };
@@ -353,6 +357,14 @@
 		0B9603451FD100DF00916D00 /* BRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTextField.h; sourceTree = "<group>"; };
 		0B9603481FD100F100916D00 /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
 		0B9603491FD100F100916D00 /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		0B96034C1FD105DB00916D00 /* QJRequestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJRequestApi.m; sourceTree = "<group>"; };
+		0B96034D1FD105DB00916D00 /* QJCheckVersionUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJCheckVersionUpdate.m; sourceTree = "<group>"; };
+		0B96034E1FD105DB00916D00 /* QJVersionUpdateVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJVersionUpdateVIew.h; sourceTree = "<group>"; };
+		0B96034F1FD105DB00916D00 /* QJRequestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJRequestApi.h; sourceTree = "<group>"; };
+		0B9603501FD105DB00916D00 /* QJVersionUpdateVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJVersionUpdateVIew.m; sourceTree = "<group>"; };
+		0B9603511FD105DB00916D00 /* QJCheckVersionUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJCheckVersionUpdate.h; sourceTree = "<group>"; };
+		0B9603551FD1062400916D00 /* CheckVersionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckVersionViewController.h; sourceTree = "<group>"; };
+		0B9603561FD1062400916D00 /* CheckVersionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckVersionViewController.m; sourceTree = "<group>"; };
 		0B9B53531F9859FD0044CB6F /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 		0B9B53541F9859FD0044CB6F /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 		0B9B53591F9859FD0044CB6F /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
@@ -489,6 +501,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B96034B1FD105DB00916D00 /* CheckVersion（检测升级） */,
 				0B9603411FD100DF00916D00 /* PickerView(选择器) */,
 				0BDA50B81FD00097006BFA93 /* SelectCity(选择城市区) */,
 				0B3AEB9A1FA821760045EA28 /* wuliu(物流轴线) */,
@@ -857,6 +870,21 @@
 			path = "PickerView(选择器)";
 			sourceTree = "<group>";
 		};
+		0B96034B1FD105DB00916D00 /* CheckVersion（检测升级） */ = {
+			isa = PBXGroup;
+			children = (
+				0B96034C1FD105DB00916D00 /* QJRequestApi.m */,
+				0B96034D1FD105DB00916D00 /* QJCheckVersionUpdate.m */,
+				0B96034E1FD105DB00916D00 /* QJVersionUpdateVIew.h */,
+				0B96034F1FD105DB00916D00 /* QJRequestApi.h */,
+				0B9603501FD105DB00916D00 /* QJVersionUpdateVIew.m */,
+				0B9603511FD105DB00916D00 /* QJCheckVersionUpdate.h */,
+				0B9603551FD1062400916D00 /* CheckVersionViewController.h */,
+				0B9603561FD1062400916D00 /* CheckVersionViewController.m */,
+			);
+			path = "CheckVersion（检测升级）";
+			sourceTree = "<group>";
+		};
 		0B9B53511F9859FD0044CB6F /* ContentZheDie(文字折叠) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1161,10 +1189,12 @@
 				0B9099091DEBE55500CFCD82 /* PYTempViewController.m in Sources */,
 				0B2DF7DA1DB750A8002FC216 /* AppDelegate.m in Sources */,
 				0B2DF8541DB755F8002FC216 /* UIButton+AFNetworking.m in Sources */,
+				0B9603521FD105DB00916D00 /* QJRequestApi.m in Sources */,
 				0B90991F1DEBE5A500CFCD82 /* DWGesturesLock.m in Sources */,
 				0B12C4471DB78E1E00A9A348 /* UIImage+GIF.m in Sources */,
 				0B9099521DEBE65800CFCD82 /* View+MASAdditions.m in Sources */,
 				0B2DF8531DB755F8002FC216 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */,
 				0B9603461FD100E000916D00 /* BRTextField.m in Sources */,
 				0B12C44B1DB78E1E00A9A348 /* UIView+WebCacheOperation.m in Sources */,
 				0B90994C1DEBE65800CFCD82 /* MASConstraintMaker.m in Sources */,
@@ -1191,6 +1221,7 @@
 				0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */,
 				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0B90994D1DEBE65800CFCD82 /* MASLayoutConstraint.m in Sources */,
+				0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */,
 				0B12C4421DB78E1E00A9A348 /* SDWebImageDownloader.m in Sources */,
 				0B2DF84C1DB755F8002FC216 /* AFSecurityPolicy.m in Sources */,
 				0B90999D1DEC23C000CFCD82 /* WaterViewController.m in Sources */,
@@ -1200,6 +1231,7 @@
 				0B2DF8521DB755F8002FC216 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				0B2DF7EE1DB751A7002FC216 /* cellModel.m in Sources */,
 				0B9099051DEBE55500CFCD82 /* PYSearchViewController.m in Sources */,
+				0B9603531FD105DB00916D00 /* QJCheckVersionUpdate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

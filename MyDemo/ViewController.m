@@ -43,6 +43,8 @@
     
     cellModel *model8 = [cellModel cellModelWithName:@"选择器PickerView" controller:@"PickerViewController"];
 
+    cellModel *model9 = [cellModel cellModelWithName:@"APP启动检测升级" controller:@"CheckVersionViewController"];
+
 
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
@@ -52,6 +54,7 @@
     [self.dataSource addObject:model6];
     [self.dataSource addObject:model7];
     [self.dataSource addObject:model8];
+    [self.dataSource addObject:model9];
 
 }
 
