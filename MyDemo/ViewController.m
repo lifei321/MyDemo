@@ -47,6 +47,9 @@
 
     cellModel *model10 = [cellModel cellModelWithName:@"滚动新闻条" controller:@"ScrollNewsViewController"];
 
+    cellModel *model11 = [cellModel cellModelWithName:@"自动下拉列表和tag标签自动排布" controller:@"MenuAndTagViewController"];
+
+    
 
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
@@ -58,7 +61,7 @@
     [self.dataSource addObject:model8];
     [self.dataSource addObject:model9];
     [self.dataSource addObject:model10];
-
+    [self.dataSource addObject:model11];
 
 }
 

@@ -144,6 +144,12 @@
 		0BF70EF01FD640AE002C1275 /* DCTitleRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EEE1FD640AE002C1275 /* DCTitleRolling.m */; };
 		0BF70EF11FD640AE002C1275 /* UIView+DCRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EEF1FD640AE002C1275 /* UIView+DCRolling.m */; };
 		0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EF31FD640C5002C1275 /* ScrollNewsViewController.m */; };
+		0BF70F021FD64733002C1275 /* KMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EF71FD64733002C1275 /* KMTagListView.m */; };
+		0BF70F031FD64733002C1275 /* KMTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EF81FD64733002C1275 /* KMTag.m */; };
+		0BF70F041FD64733002C1275 /* PTLMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EFC1FD64733002C1275 /* PTLMenuButton.m */; };
+		0BF70F051FD64733002C1275 /* PTLDownMenuList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EFD1FD64733002C1275 /* PTLDownMenuList.m */; };
+		0BF70F061FD64733002C1275 /* PTLMaskingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F011FD64733002C1275 /* PTLMaskingView.m */; };
+		0BF70F091FD64752002C1275 /* MenuAndTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F081FD64752002C1275 /* MenuAndTagViewController.m */; };
 		821B3C1466E49EB9047AF7AE /* libPods-MyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CD7EE8CBAF30A6E593E4A /* libPods-MyDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -391,6 +397,18 @@
 		0BF70EEF1FD640AE002C1275 /* UIView+DCRolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCRolling.m"; sourceTree = "<group>"; };
 		0BF70EF21FD640C5002C1275 /* ScrollNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollNewsViewController.h; sourceTree = "<group>"; };
 		0BF70EF31FD640C5002C1275 /* ScrollNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollNewsViewController.m; sourceTree = "<group>"; };
+		0BF70EF71FD64733002C1275 /* KMTagListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTagListView.m; sourceTree = "<group>"; };
+		0BF70EF81FD64733002C1275 /* KMTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTag.m; sourceTree = "<group>"; };
+		0BF70EF91FD64733002C1275 /* KMTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTag.h; sourceTree = "<group>"; };
+		0BF70EFA1FD64733002C1275 /* KMTagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTagListView.h; sourceTree = "<group>"; };
+		0BF70EFC1FD64733002C1275 /* PTLMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLMenuButton.m; sourceTree = "<group>"; };
+		0BF70EFD1FD64733002C1275 /* PTLDownMenuList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLDownMenuList.m; sourceTree = "<group>"; };
+		0BF70EFE1FD64733002C1275 /* PTLMaskingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLMaskingView.h; sourceTree = "<group>"; };
+		0BF70EFF1FD64733002C1275 /* PTLMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLMenuButton.h; sourceTree = "<group>"; };
+		0BF70F001FD64733002C1275 /* PTLDownMenuList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLDownMenuList.h; sourceTree = "<group>"; };
+		0BF70F011FD64733002C1275 /* PTLMaskingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLMaskingView.m; sourceTree = "<group>"; };
+		0BF70F071FD64752002C1275 /* MenuAndTagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuAndTagViewController.h; sourceTree = "<group>"; };
+		0BF70F081FD64752002C1275 /* MenuAndTagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuAndTagViewController.m; sourceTree = "<group>"; };
 		6121E60F1869AD81437F266A /* Pods-MyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		992587B453C79174FA0C468F /* Pods-MyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -510,6 +528,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0BF70EF51FD64733002C1275 /* MenuAndTags(下拉列表和标签自动布局) */,
 				0BF70EEA1FD640AE002C1275 /* ScrollNews(轮播新闻条) */,
 				0B96034B1FD105DB00916D00 /* CheckVersion（检测升级） */,
 				0B9603411FD100DF00916D00 /* PickerView(选择器) */,
@@ -987,6 +1006,41 @@
 			path = CDDTitleRolling;
 			sourceTree = "<group>";
 		};
+		0BF70EF51FD64733002C1275 /* MenuAndTags(下拉列表和标签自动布局) */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70EF61FD64733002C1275 /* KMTagListView */,
+				0BF70EFB1FD64733002C1275 /* PTLMenuButton */,
+				0BF70F071FD64752002C1275 /* MenuAndTagViewController.h */,
+				0BF70F081FD64752002C1275 /* MenuAndTagViewController.m */,
+			);
+			path = "MenuAndTags(下拉列表和标签自动布局)";
+			sourceTree = "<group>";
+		};
+		0BF70EF61FD64733002C1275 /* KMTagListView */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70EF71FD64733002C1275 /* KMTagListView.m */,
+				0BF70EF81FD64733002C1275 /* KMTag.m */,
+				0BF70EF91FD64733002C1275 /* KMTag.h */,
+				0BF70EFA1FD64733002C1275 /* KMTagListView.h */,
+			);
+			path = KMTagListView;
+			sourceTree = "<group>";
+		};
+		0BF70EFB1FD64733002C1275 /* PTLMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70EFC1FD64733002C1275 /* PTLMenuButton.m */,
+				0BF70EFD1FD64733002C1275 /* PTLDownMenuList.m */,
+				0BF70EFE1FD64733002C1275 /* PTLMaskingView.h */,
+				0BF70EFF1FD64733002C1275 /* PTLMenuButton.h */,
+				0BF70F001FD64733002C1275 /* PTLDownMenuList.h */,
+				0BF70F011FD64733002C1275 /* PTLMaskingView.m */,
+			);
+			path = PTLMenuButton;
+			sourceTree = "<group>";
+		};
 		D42514E23AE0E3620640C023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1195,6 +1249,7 @@
 				0B90991E1DEBE5A500CFCD82 /* DWFingerprintUNlock.m in Sources */,
 				0B12C4451DB78E1E00A9A348 /* SDWebImagePrefetcher.m in Sources */,
 				0B9099501DEBE65800CFCD82 /* NSArray+MASAdditions.m in Sources */,
+				0BF70F061FD64733002C1275 /* PTLMaskingView.m in Sources */,
 				0B90994A1DEBE65800CFCD82 /* MASCompositeConstraint.m in Sources */,
 				0B9099A01DEC23F200CFCD82 /* PBLViewController.m in Sources */,
 				0B12C44A1DB78E1E00A9A348 /* UIImageView+WebCache.m in Sources */,
@@ -1205,6 +1260,7 @@
 				0B9099861DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m in Sources */,
 				0B9099B31DEC25D200CFCD82 /* OtherWaterViewController.m in Sources */,
 				0B12C43F1DB78E1E00A9A348 /* SDImageCache.m in Sources */,
+				0BF70F031FD64733002C1275 /* KMTag.m in Sources */,
 				0B9099071DEBE55500CFCD82 /* UIView+PYExtension.m in Sources */,
 				0B9099081DEBE55500CFCD82 /* PYSearchExampleController.m in Sources */,
 				0B12C4491DB78E1E00A9A348 /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -1225,6 +1281,7 @@
 				0B9603521FD105DB00916D00 /* QJRequestApi.m in Sources */,
 				0B90991F1DEBE5A500CFCD82 /* DWGesturesLock.m in Sources */,
 				0B12C4471DB78E1E00A9A348 /* UIImage+GIF.m in Sources */,
+				0BF70F051FD64733002C1275 /* PTLDownMenuList.m in Sources */,
 				0B9099521DEBE65800CFCD82 /* View+MASAdditions.m in Sources */,
 				0B2DF8531DB755F8002FC216 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */,
@@ -1243,8 +1300,10 @@
 				0B12C4431DB78E1E00A9A348 /* SDWebImageDownloaderOperation.m in Sources */,
 				0B9099041DEBE55500CFCD82 /* PYSearchSuggestionViewController.m in Sources */,
 				0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */,
+				0BF70F041FD64733002C1275 /* PTLMenuButton.m in Sources */,
 				0B90994E1DEBE65800CFCD82 /* MASViewAttribute.m in Sources */,
 				0B90994F1DEBE65800CFCD82 /* MASViewConstraint.m in Sources */,
+				0BF70F091FD64752002C1275 /* MenuAndTagViewController.m in Sources */,
 				0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */,
 				0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */,
 				0B9099AD1DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.m in Sources */,
@@ -1256,6 +1315,7 @@
 				0B90994D1DEBE65800CFCD82 /* MASLayoutConstraint.m in Sources */,
 				0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */,
 				0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */,
+				0BF70F021FD64733002C1275 /* KMTagListView.m in Sources */,
 				0B12C4421DB78E1E00A9A348 /* SDWebImageDownloader.m in Sources */,
 				0B2DF84C1DB755F8002FC216 /* AFSecurityPolicy.m in Sources */,
 				0B90999D1DEC23C000CFCD82 /* WaterViewController.m in Sources */,
