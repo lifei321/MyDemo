@@ -141,6 +141,9 @@
 		0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50C01FD0012B006BFA93 /* CityNameModel.m */; };
 		0BDA50CB1FD0015E006BFA93 /* SelectCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50CA1FD0015E006BFA93 /* SelectCityViewController.m */; };
 		0BDA50CE1FD0017B006BFA93 /* CityPickerVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50CD1FD0017B006BFA93 /* CityPickerVeiw.m */; };
+		0BF70EF01FD640AE002C1275 /* DCTitleRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EEE1FD640AE002C1275 /* DCTitleRolling.m */; };
+		0BF70EF11FD640AE002C1275 /* UIView+DCRolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EEF1FD640AE002C1275 /* UIView+DCRolling.m */; };
+		0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70EF31FD640C5002C1275 /* ScrollNewsViewController.m */; };
 		821B3C1466E49EB9047AF7AE /* libPods-MyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CD7EE8CBAF30A6E593E4A /* libPods-MyDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -382,6 +385,12 @@
 		0BDA50CA1FD0015E006BFA93 /* SelectCityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCityViewController.m; sourceTree = "<group>"; };
 		0BDA50CC1FD0017A006BFA93 /* CityPickerVeiw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityPickerVeiw.h; sourceTree = "<group>"; };
 		0BDA50CD1FD0017B006BFA93 /* CityPickerVeiw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityPickerVeiw.m; sourceTree = "<group>"; };
+		0BF70EEC1FD640AE002C1275 /* UIView+DCRolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCRolling.h"; sourceTree = "<group>"; };
+		0BF70EED1FD640AE002C1275 /* DCTitleRolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTitleRolling.h; sourceTree = "<group>"; };
+		0BF70EEE1FD640AE002C1275 /* DCTitleRolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTitleRolling.m; sourceTree = "<group>"; };
+		0BF70EEF1FD640AE002C1275 /* UIView+DCRolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCRolling.m"; sourceTree = "<group>"; };
+		0BF70EF21FD640C5002C1275 /* ScrollNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollNewsViewController.h; sourceTree = "<group>"; };
+		0BF70EF31FD640C5002C1275 /* ScrollNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollNewsViewController.m; sourceTree = "<group>"; };
 		6121E60F1869AD81437F266A /* Pods-MyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		992587B453C79174FA0C468F /* Pods-MyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -501,6 +510,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0BF70EEA1FD640AE002C1275 /* ScrollNews(轮播新闻条) */,
 				0B96034B1FD105DB00916D00 /* CheckVersion（检测升级） */,
 				0B9603411FD100DF00916D00 /* PickerView(选择器) */,
 				0BDA50B81FD00097006BFA93 /* SelectCity(选择城市区) */,
@@ -956,6 +966,27 @@
 			path = model;
 			sourceTree = "<group>";
 		};
+		0BF70EEA1FD640AE002C1275 /* ScrollNews(轮播新闻条) */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70EEB1FD640AE002C1275 /* CDDTitleRolling */,
+				0BF70EF21FD640C5002C1275 /* ScrollNewsViewController.h */,
+				0BF70EF31FD640C5002C1275 /* ScrollNewsViewController.m */,
+			);
+			path = "ScrollNews(轮播新闻条)";
+			sourceTree = "<group>";
+		};
+		0BF70EEB1FD640AE002C1275 /* CDDTitleRolling */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70EEC1FD640AE002C1275 /* UIView+DCRolling.h */,
+				0BF70EED1FD640AE002C1275 /* DCTitleRolling.h */,
+				0BF70EEE1FD640AE002C1275 /* DCTitleRolling.m */,
+				0BF70EEF1FD640AE002C1275 /* UIView+DCRolling.m */,
+			);
+			path = CDDTitleRolling;
+			sourceTree = "<group>";
+		};
 		D42514E23AE0E3620640C023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1144,6 +1175,7 @@
 				0B3AEBB11FA824DC0045EA28 /* Tool.m in Sources */,
 				0B3AEBB01FA824D20045EA28 /* WenziZhedieTableViewController.h in Sources */,
 				0B3AEBAF1FA824840045EA28 /* NSString+textStringToSize.m in Sources */,
+				0BF70EF01FD640AE002C1275 /* DCTitleRolling.m in Sources */,
 				0B3AEBAD1FA8223F0045EA28 /* LogisticsInfo.m in Sources */,
 				0B3AEBAC1FA8222E0045EA28 /* LogisticsTableViewCellFrame.m in Sources */,
 				0B96034A1FD100F100916D00 /* PickerViewController.m in Sources */,
@@ -1178,6 +1210,7 @@
 				0B12C4491DB78E1E00A9A348 /* UIImageView+HighlightedWebCache.m in Sources */,
 				0B2DF7DD1DB750A8002FC216 /* ViewController.m in Sources */,
 				0B9099AC1DEC259E00CFCD82 /* FMHotBrandLayout.m in Sources */,
+				0BF70EF11FD640AE002C1275 /* UIView+DCRolling.m in Sources */,
 				0B9099201DEBE5A500CFCD82 /* DWiPhoneType.m in Sources */,
 				0B9099531DEBE65800CFCD82 /* ViewController+MASAdditions.m in Sources */,
 				0B12C4461DB78E1E00A9A348 /* UIButton+WebCache.m in Sources */,
@@ -1221,6 +1254,7 @@
 				0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */,
 				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0B90994D1DEBE65800CFCD82 /* MASLayoutConstraint.m in Sources */,
+				0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */,
 				0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */,
 				0B12C4421DB78E1E00A9A348 /* SDWebImageDownloader.m in Sources */,
 				0B2DF84C1DB755F8002FC216 /* AFSecurityPolicy.m in Sources */,

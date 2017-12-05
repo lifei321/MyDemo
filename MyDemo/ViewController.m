@@ -45,6 +45,8 @@
 
     cellModel *model9 = [cellModel cellModelWithName:@"APP启动检测升级" controller:@"CheckVersionViewController"];
 
+    cellModel *model10 = [cellModel cellModelWithName:@"滚动新闻条" controller:@"ScrollNewsViewController"];
+
 
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
@@ -55,6 +57,8 @@
     [self.dataSource addObject:model7];
     [self.dataSource addObject:model8];
     [self.dataSource addObject:model9];
+    [self.dataSource addObject:model10];
+
 
 }
 
