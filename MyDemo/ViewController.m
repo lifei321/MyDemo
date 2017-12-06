@@ -49,7 +49,8 @@
 
     cellModel *model11 = [cellModel cellModelWithName:@"自动下拉列表和tag标签自动排布" controller:@"MenuAndTagViewController"];
 
-    
+    cellModel *model12 = [cellModel cellModelWithName:@"标签控制列表" controller:@"TagSelectViewController"];
+
 
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
@@ -62,6 +63,7 @@
     [self.dataSource addObject:model9];
     [self.dataSource addObject:model10];
     [self.dataSource addObject:model11];
+    [self.dataSource addObject:model12];
 
 }
 
