@@ -75,17 +75,6 @@
 		0B9099291DEBE5A500CFCD82 /* gesture_node_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B90991C1DEBE5A500CFCD82 /* gesture_node_success@3x.png */; };
 		0B90992A1DEBE5A500CFCD82 /* 手势&指纹.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B90991D1DEBE5A500CFCD82 /* 手势&指纹.gif */; };
 		0B90992D1DEBE5C100CFCD82 /* UNlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90992C1DEBE5C100CFCD82 /* UNlockViewController.m */; };
-		0B9099491DEBE65800CFCD82 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B90992F1DEBE65800CFCD82 /* Info.plist */; };
-		0B90994A1DEBE65800CFCD82 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099311DEBE65800CFCD82 /* MASCompositeConstraint.m */; };
-		0B90994B1DEBE65800CFCD82 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099341DEBE65800CFCD82 /* MASConstraint.m */; };
-		0B90994C1DEBE65800CFCD82 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099361DEBE65800CFCD82 /* MASConstraintMaker.m */; };
-		0B90994D1DEBE65800CFCD82 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099381DEBE65800CFCD82 /* MASLayoutConstraint.m */; };
-		0B90994E1DEBE65800CFCD82 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90993C1DEBE65800CFCD82 /* MASViewAttribute.m */; };
-		0B90994F1DEBE65800CFCD82 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90993E1DEBE65800CFCD82 /* MASViewConstraint.m */; };
-		0B9099501DEBE65800CFCD82 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099401DEBE65800CFCD82 /* NSArray+MASAdditions.m */; };
-		0B9099511DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099431DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		0B9099521DEBE65800CFCD82 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099451DEBE65800CFCD82 /* View+MASAdditions.m */; };
-		0B9099531DEBE65800CFCD82 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099481DEBE65800CFCD82 /* ViewController+MASAdditions.m */; };
 		0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */; };
 		0B9099801DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */; };
 		0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90995B1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m */; };
@@ -154,6 +143,13 @@
 		0BF70F291FD7A193002C1275 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F251FD7A193002C1275 /* Channel.m */; };
 		0BF70F2A1FD7A193002C1275 /* ChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F271FD7A193002C1275 /* ChannelCell.m */; };
 		0BF70F2D1FD7A1AA002C1275 /* TagSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F2C1FD7A1AA002C1275 /* TagSelectViewController.m */; };
+		0BF70F381FD7CD6E002C1275 /* MoreDropDownMenuRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F321FD7CD6D002C1275 /* MoreDropDownMenuRowCell.m */; };
+		0BF70F391FD7CD6E002C1275 /* MoreDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F331FD7CD6D002C1275 /* MoreDropDownMenu.m */; };
+		0BF70F3A1FD7CD6E002C1275 /* NSArray+ZMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F361FD7CD6D002C1275 /* NSArray+ZMAdd.m */; };
+		0BF70F3D1FD7CDB8002C1275 /* MoreDropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F3C1FD7CDB8002C1275 /* MoreDropDownViewController.m */; };
+		0BF70F471FD7D1AD002C1275 /* DOPDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F461FD7D1AD002C1275 /* DOPDropDownMenu.m */; };
+		0BF70F4A1FD7D1C7002C1275 /* DropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F491FD7D1C7002C1275 /* DropDownViewController.m */; };
+		0BF70F4D1FD7D2FA002C1275 /* DropDownListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF70F4C1FD7D2FA002C1275 /* DropDownListController.m */; };
 		821B3C1466E49EB9047AF7AE /* libPods-MyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 048CD7EE8CBAF30A6E593E4A /* libPods-MyDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -282,32 +278,6 @@
 		0B90991D1DEBE5A500CFCD82 /* 手势&指纹.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "手势&指纹.gif"; sourceTree = "<group>"; };
 		0B90992B1DEBE5C100CFCD82 /* UNlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNlockViewController.h; sourceTree = "<group>"; };
 		0B90992C1DEBE5C100CFCD82 /* UNlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNlockViewController.m; sourceTree = "<group>"; };
-		0B90992F1DEBE65800CFCD82 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B9099301DEBE65800CFCD82 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		0B9099311DEBE65800CFCD82 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		0B9099321DEBE65800CFCD82 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		0B9099331DEBE65800CFCD82 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		0B9099341DEBE65800CFCD82 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		0B9099351DEBE65800CFCD82 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		0B9099361DEBE65800CFCD82 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		0B9099371DEBE65800CFCD82 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		0B9099381DEBE65800CFCD82 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		0B9099391DEBE65800CFCD82 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		0B90993A1DEBE65800CFCD82 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		0B90993B1DEBE65800CFCD82 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		0B90993C1DEBE65800CFCD82 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		0B90993D1DEBE65800CFCD82 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		0B90993E1DEBE65800CFCD82 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		0B90993F1DEBE65800CFCD82 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		0B9099401DEBE65800CFCD82 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		0B9099411DEBE65800CFCD82 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0B9099421DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		0B9099431DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		0B9099441DEBE65800CFCD82 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		0B9099451DEBE65800CFCD82 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		0B9099461DEBE65800CFCD82 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		0B9099471DEBE65800CFCD82 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		0B9099481DEBE65800CFCD82 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		0B9099571DEC23BF00CFCD82 /* SimpleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCollectionViewCell.h; sourceTree = "<group>"; };
 		0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCollectionViewCell.m; sourceTree = "<group>"; };
 		0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -421,6 +391,20 @@
 		0BF70F271FD7A193002C1275 /* ChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelCell.m; sourceTree = "<group>"; };
 		0BF70F2B1FD7A1AA002C1275 /* TagSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagSelectViewController.h; sourceTree = "<group>"; };
 		0BF70F2C1FD7A1AA002C1275 /* TagSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagSelectViewController.m; sourceTree = "<group>"; };
+		0BF70F311FD7CD6D002C1275 /* MoreDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenu.h; sourceTree = "<group>"; };
+		0BF70F321FD7CD6D002C1275 /* MoreDropDownMenuRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenuRowCell.m; sourceTree = "<group>"; };
+		0BF70F331FD7CD6D002C1275 /* MoreDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownMenu.m; sourceTree = "<group>"; };
+		0BF70F341FD7CD6D002C1275 /* MoreDropDownMenuRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreDropDownMenuRowCell.h; sourceTree = "<group>"; };
+		0BF70F361FD7CD6D002C1275 /* NSArray+ZMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZMAdd.m"; sourceTree = "<group>"; };
+		0BF70F371FD7CD6D002C1275 /* NSArray+ZMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZMAdd.h"; sourceTree = "<group>"; };
+		0BF70F3B1FD7CDB8002C1275 /* MoreDropDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreDropDownViewController.h; sourceTree = "<group>"; };
+		0BF70F3C1FD7CDB8002C1275 /* MoreDropDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreDropDownViewController.m; sourceTree = "<group>"; };
+		0BF70F451FD7D1AD002C1275 /* DOPDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOPDropDownMenu.h; sourceTree = "<group>"; };
+		0BF70F461FD7D1AD002C1275 /* DOPDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOPDropDownMenu.m; sourceTree = "<group>"; };
+		0BF70F481FD7D1C7002C1275 /* DropDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownViewController.h; sourceTree = "<group>"; };
+		0BF70F491FD7D1C7002C1275 /* DropDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownViewController.m; sourceTree = "<group>"; };
+		0BF70F4B1FD7D2FA002C1275 /* DropDownListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownListController.h; sourceTree = "<group>"; };
+		0BF70F4C1FD7D2FA002C1275 /* DropDownListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownListController.m; sourceTree = "<group>"; };
 		6121E60F1869AD81437F266A /* Pods-MyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.release.xcconfig"; sourceTree = "<group>"; };
 		992587B453C79174FA0C468F /* Pods-MyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -540,6 +524,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0BF70F2E1FD7CD6D002C1275 /* DropDownList(下拉列表) */,
 				0BF70F201FD7A193002C1275 /* TagsSelect(选择标签列表) */,
 				0BF70EF51FD64733002C1275 /* MenuAndTags(下拉列表和标签自动布局) */,
 				0BF70EEA1FD640AE002C1275 /* ScrollNews(轮播新闻条) */,
@@ -560,7 +545,6 @@
 		0B2DF7F31DB75540002FC216 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				0B90992E1DEBE65800CFCD82 /* Masonry */,
 				0B12C4201DB78E1E00A9A348 /* SDWebImage */,
 				0B2DF8261DB755F8002FC216 /* AFNetworking3.0 */,
 			);
@@ -744,39 +728,6 @@
 				0B90991D1DEBE5A500CFCD82 /* 手势&指纹.gif */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		0B90992E1DEBE65800CFCD82 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				0B90992F1DEBE65800CFCD82 /* Info.plist */,
-				0B9099301DEBE65800CFCD82 /* MASCompositeConstraint.h */,
-				0B9099311DEBE65800CFCD82 /* MASCompositeConstraint.m */,
-				0B9099321DEBE65800CFCD82 /* MASConstraint+Private.h */,
-				0B9099331DEBE65800CFCD82 /* MASConstraint.h */,
-				0B9099341DEBE65800CFCD82 /* MASConstraint.m */,
-				0B9099351DEBE65800CFCD82 /* MASConstraintMaker.h */,
-				0B9099361DEBE65800CFCD82 /* MASConstraintMaker.m */,
-				0B9099371DEBE65800CFCD82 /* MASLayoutConstraint.h */,
-				0B9099381DEBE65800CFCD82 /* MASLayoutConstraint.m */,
-				0B9099391DEBE65800CFCD82 /* Masonry.h */,
-				0B90993A1DEBE65800CFCD82 /* MASUtilities.h */,
-				0B90993B1DEBE65800CFCD82 /* MASViewAttribute.h */,
-				0B90993C1DEBE65800CFCD82 /* MASViewAttribute.m */,
-				0B90993D1DEBE65800CFCD82 /* MASViewConstraint.h */,
-				0B90993E1DEBE65800CFCD82 /* MASViewConstraint.m */,
-				0B90993F1DEBE65800CFCD82 /* NSArray+MASAdditions.h */,
-				0B9099401DEBE65800CFCD82 /* NSArray+MASAdditions.m */,
-				0B9099411DEBE65800CFCD82 /* NSArray+MASShorthandAdditions.h */,
-				0B9099421DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				0B9099431DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				0B9099441DEBE65800CFCD82 /* View+MASAdditions.h */,
-				0B9099451DEBE65800CFCD82 /* View+MASAdditions.m */,
-				0B9099461DEBE65800CFCD82 /* View+MASShorthandAdditions.h */,
-				0B9099471DEBE65800CFCD82 /* ViewController+MASAdditions.h */,
-				0B9099481DEBE65800CFCD82 /* ViewController+MASAdditions.m */,
-			);
-			path = Masonry;
 			sourceTree = "<group>";
 		};
 		0B9099541DEC23BF00CFCD82 /* UICollectionView（瀑布流） */ = {
@@ -1077,6 +1028,67 @@
 			path = tool;
 			sourceTree = "<group>";
 		};
+		0BF70F2E1FD7CD6D002C1275 /* DropDownList(下拉列表) */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70F431FD7D1AD002C1275 /* second */,
+				0BF70F2F1FD7CD6D002C1275 /* first */,
+				0BF70F4B1FD7D2FA002C1275 /* DropDownListController.h */,
+				0BF70F4C1FD7D2FA002C1275 /* DropDownListController.m */,
+			);
+			path = "DropDownList(下拉列表)";
+			sourceTree = "<group>";
+		};
+		0BF70F2F1FD7CD6D002C1275 /* first */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70F301FD7CD6D002C1275 /* MoreDropDownMenu */,
+				0BF70F351FD7CD6D002C1275 /* tool */,
+				0BF70F3B1FD7CDB8002C1275 /* MoreDropDownViewController.h */,
+				0BF70F3C1FD7CDB8002C1275 /* MoreDropDownViewController.m */,
+			);
+			path = first;
+			sourceTree = "<group>";
+		};
+		0BF70F301FD7CD6D002C1275 /* MoreDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70F341FD7CD6D002C1275 /* MoreDropDownMenuRowCell.h */,
+				0BF70F321FD7CD6D002C1275 /* MoreDropDownMenuRowCell.m */,
+				0BF70F311FD7CD6D002C1275 /* MoreDropDownMenu.h */,
+				0BF70F331FD7CD6D002C1275 /* MoreDropDownMenu.m */,
+			);
+			path = MoreDropDownMenu;
+			sourceTree = "<group>";
+		};
+		0BF70F351FD7CD6D002C1275 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70F361FD7CD6D002C1275 /* NSArray+ZMAdd.m */,
+				0BF70F371FD7CD6D002C1275 /* NSArray+ZMAdd.h */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		0BF70F431FD7D1AD002C1275 /* second */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70F441FD7D1AD002C1275 /* DOPDropDownMenu - Enhanced */,
+				0BF70F481FD7D1C7002C1275 /* DropDownViewController.h */,
+				0BF70F491FD7D1C7002C1275 /* DropDownViewController.m */,
+			);
+			path = second;
+			sourceTree = "<group>";
+		};
+		0BF70F441FD7D1AD002C1275 /* DOPDropDownMenu - Enhanced */ = {
+			isa = PBXGroup;
+			children = (
+				0BF70F451FD7D1AD002C1275 /* DOPDropDownMenu.h */,
+				0BF70F461FD7D1AD002C1275 /* DOPDropDownMenu.m */,
+			);
+			path = "DOPDropDownMenu - Enhanced";
+			sourceTree = "<group>";
+		};
 		D42514E23AE0E3620640C023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1181,7 +1193,6 @@
 				0B90998A1DEC23BF00CFCD82 /* 1.jpg in Resources */,
 				0B3AEBAE1FA8228C0045EA28 /* logisticsInfo.plist in Resources */,
 				0B90998C1DEC23BF00CFCD82 /* 11.jpg in Resources */,
-				0B9099491DEBE65800CFCD82 /* Info.plist in Resources */,
 				0B9099211DEBE5A500CFCD82 /* bg.png in Resources */,
 				0B9099261DEBE5A500CFCD82 /* gesture_node_normal@2x.png in Resources */,
 				0B9099891DEC23BF00CFCD82 /* 0.jpg in Resources */,
@@ -1269,6 +1280,7 @@
 				0B3AEBAD1FA8223F0045EA28 /* LogisticsInfo.m in Sources */,
 				0B3AEBAC1FA8222E0045EA28 /* LogisticsTableViewCellFrame.m in Sources */,
 				0B96034A1FD100F100916D00 /* PickerViewController.m in Sources */,
+				0BF70F4A1FD7D1C7002C1275 /* DropDownViewController.m in Sources */,
 				0B3AEBAB1FA822270045EA28 /* LogisticsTableViewCell.m in Sources */,
 				0BF70F2A1FD7A193002C1275 /* ChannelCell.m in Sources */,
 				0B3AEBAA1FA821F40045EA28 /* LogisticsInfoViewController.m in Sources */,
@@ -1286,16 +1298,13 @@
 				0B90991E1DEBE5A500CFCD82 /* DWFingerprintUNlock.m in Sources */,
 				0BF70F281FD7A193002C1275 /* ChannelTags.m in Sources */,
 				0B12C4451DB78E1E00A9A348 /* SDWebImagePrefetcher.m in Sources */,
-				0B9099501DEBE65800CFCD82 /* NSArray+MASAdditions.m in Sources */,
 				0BF70F061FD64733002C1275 /* PTLMaskingView.m in Sources */,
-				0B90994A1DEBE65800CFCD82 /* MASCompositeConstraint.m in Sources */,
 				0B9099A01DEC23F200CFCD82 /* PBLViewController.m in Sources */,
 				0B12C44A1DB78E1E00A9A348 /* UIImageView+WebCache.m in Sources */,
 				0B2DF8551DB755F8002FC216 /* UIImageView+AFNetworking.m in Sources */,
 				0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */,
 				0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */,
 				0BF70F2D1FD7A1AA002C1275 /* TagSelectViewController.m in Sources */,
-				0B9099511DEBE65800CFCD82 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				0B9099861DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m in Sources */,
 				0B9099B31DEC25D200CFCD82 /* OtherWaterViewController.m in Sources */,
 				0B12C43F1DB78E1E00A9A348 /* SDImageCache.m in Sources */,
@@ -1307,12 +1316,13 @@
 				0B9099AC1DEC259E00CFCD82 /* FMHotBrandLayout.m in Sources */,
 				0BF70EF11FD640AE002C1275 /* UIView+DCRolling.m in Sources */,
 				0B9099201DEBE5A500CFCD82 /* DWiPhoneType.m in Sources */,
-				0B9099531DEBE65800CFCD82 /* ViewController+MASAdditions.m in Sources */,
 				0B12C4461DB78E1E00A9A348 /* UIButton+WebCache.m in Sources */,
 				0B2DF8561DB755F8002FC216 /* UIProgressView+AFNetworking.m in Sources */,
+				0BF70F3A1FD7CD6E002C1275 /* NSArray+ZMAdd.m in Sources */,
 				0B2DF8511DB755F8002FC216 /* AFImageDownloader.m in Sources */,
 				0B90992D1DEBE5C100CFCD82 /* UNlockViewController.m in Sources */,
 				0B2DF8501DB755F8002FC216 /* AFAutoPurgingImageCache.m in Sources */,
+				0BF70F471FD7D1AD002C1275 /* DOPDropDownMenu.m in Sources */,
 				0B9099AF1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m in Sources */,
 				0B9099091DEBE55500CFCD82 /* PYTempViewController.m in Sources */,
 				0B2DF7DA1DB750A8002FC216 /* AppDelegate.m in Sources */,
@@ -1321,27 +1331,24 @@
 				0B90991F1DEBE5A500CFCD82 /* DWGesturesLock.m in Sources */,
 				0B12C4471DB78E1E00A9A348 /* UIImage+GIF.m in Sources */,
 				0BF70F051FD64733002C1275 /* PTLDownMenuList.m in Sources */,
-				0B9099521DEBE65800CFCD82 /* View+MASAdditions.m in Sources */,
 				0B2DF8531DB755F8002FC216 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */,
 				0B9603461FD100E000916D00 /* BRTextField.m in Sources */,
 				0B12C44B1DB78E1E00A9A348 /* UIView+WebCacheOperation.m in Sources */,
-				0B90994C1DEBE65800CFCD82 /* MASConstraintMaker.m in Sources */,
 				0B2DF84F1DB755F8002FC216 /* AFURLSessionManager.m in Sources */,
 				0B9099851DEC23BF00CFCD82 /* UICollectionViewSimpleController.m in Sources */,
 				0BDA50CE1FD0017B006BFA93 /* CityPickerVeiw.m in Sources */,
 				0B12C4481DB78E1E00A9A348 /* UIImage+MultiFormat.m in Sources */,
 				0B12C4411DB78E1E00A9A348 /* SDWebImageDecoder.m in Sources */,
 				0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */,
-				0B90994B1DEBE65800CFCD82 /* MASConstraint.m in Sources */,
 				0B2DF8571DB755F8002FC216 /* UIRefreshControl+AFNetworking.m in Sources */,
 				0BDA50C21FD0012B006BFA93 /* UIView+GoodView.m in Sources */,
 				0B12C4431DB78E1E00A9A348 /* SDWebImageDownloaderOperation.m in Sources */,
+				0BF70F391FD7CD6E002C1275 /* MoreDropDownMenu.m in Sources */,
 				0B9099041DEBE55500CFCD82 /* PYSearchSuggestionViewController.m in Sources */,
 				0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */,
+				0BF70F3D1FD7CDB8002C1275 /* MoreDropDownViewController.m in Sources */,
 				0BF70F041FD64733002C1275 /* PTLMenuButton.m in Sources */,
-				0B90994E1DEBE65800CFCD82 /* MASViewAttribute.m in Sources */,
-				0B90994F1DEBE65800CFCD82 /* MASViewConstraint.m in Sources */,
 				0BF70F091FD64752002C1275 /* MenuAndTagViewController.m in Sources */,
 				0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */,
 				0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */,
@@ -1349,9 +1356,9 @@
 				0B2DF84E1DB755F8002FC216 /* AFURLResponseSerialization.m in Sources */,
 				0B9099B91DEC26C500CFCD82 /* CollectionViewCell.m in Sources */,
 				0B2DF84B1DB755F8002FC216 /* AFNetworkReachabilityManager.m in Sources */,
+				0BF70F4D1FD7D2FA002C1275 /* DropDownListController.m in Sources */,
 				0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */,
 				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
-				0B90994D1DEBE65800CFCD82 /* MASLayoutConstraint.m in Sources */,
 				0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */,
 				0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */,
 				0BF70F021FD64733002C1275 /* KMTagListView.m in Sources */,
@@ -1362,6 +1369,7 @@
 				0BDA50CB1FD0015E006BFA93 /* SelectCityViewController.m in Sources */,
 				0B2DF84A1DB755F8002FC216 /* AFHTTPSessionManager.m in Sources */,
 				0B2DF7D71DB750A8002FC216 /* main.m in Sources */,
+				0BF70F381FD7CD6E002C1275 /* MoreDropDownMenuRowCell.m in Sources */,
 				0B2DF8521DB755F8002FC216 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				0B2DF7EE1DB751A7002FC216 /* cellModel.m in Sources */,
 				0B9099051DEBE55500CFCD82 /* PYSearchViewController.m in Sources */,
