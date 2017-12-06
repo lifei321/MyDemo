@@ -52,6 +52,9 @@
     cellModel *model12 = [cellModel cellModelWithName:@"标签控制列表" controller:@"TagSelectViewController"];
 
     cellModel *model13 = [cellModel cellModelWithName:@"两种下拉列表样式" controller:@"DropDownListController"];
+    
+    cellModel *model14 = [cellModel cellModelWithName:@"倒计时" controller:@"CountDownTimerController"];
+
 
 
     [self.dataSource addObject:model1];
@@ -67,6 +70,8 @@
     [self.dataSource addObject:model11];
     [self.dataSource addObject:model12];
     [self.dataSource addObject:model13];
+    [self.dataSource addObject:model14];
+
 
 }
 

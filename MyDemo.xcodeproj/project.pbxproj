@@ -53,6 +53,14 @@
 		0B3AEBB01FA824D20045EA28 /* WenziZhedieTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535B1F985B5B0044CB6F /* WenziZhedieTableViewController.h */; };
 		0B3AEBB11FA824DC0045EA28 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B53541F9859FD0044CB6F /* Tool.m */; };
 		0B3AEBB21FA824E20045EA28 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535A1F9859FD0044CB6F /* TableViewCell.m */; };
+		0B617EA61FD7F84600249BF2 /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617E9A1FD7F84600249BF2 /* CountDown.m */; };
+		0B617EA71FD7F84600249BF2 /* CountDownInCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B617E9F1FD7F84600249BF2 /* CountDownInCellViewController.xib */; };
+		0B617EA81FD7F84600249BF2 /* UIView+ArrangeSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA01FD7F84600249BF2 /* UIView+ArrangeSubview.m */; };
+		0B617EA91FD7F84600249BF2 /* CountDownInCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA11FD7F84600249BF2 /* CountDownInCellViewController.m */; };
+		0B617EAA1FD7F84600249BF2 /* CountDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B617EA21FD7F84600249BF2 /* CountDownCell.xib */; };
+		0B617EAB1FD7F84600249BF2 /* CountDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA31FD7F84600249BF2 /* CountDownCell.m */; };
+		0B617EAC1FD7F84600249BF2 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA41FD7F84600249BF2 /* CountDownViewController.m */; };
+		0B617EAF1FD7F86000249BF2 /* CountDownTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EAE1FD7F86000249BF2 /* CountDownTimerController.m */; };
 		0B9099021DEBE55500CFCD82 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B9098F21DEBE55500CFCD82 /* PYSearch.bundle */; };
 		0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098F51DEBE55500CFCD82 /* PYSearchConst.m */; };
 		0B9099041DEBE55500CFCD82 /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098F71DEBE55500CFCD82 /* PYSearchSuggestionViewController.m */; };
@@ -243,6 +251,20 @@
 		0B3AEBA71FA821760045EA28 /* LogisticsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsTableViewCell.m; sourceTree = "<group>"; };
 		0B3AEBA81FA821760045EA28 /* LogisticsTableViewCellFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsTableViewCellFrame.h; sourceTree = "<group>"; };
 		0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsTableViewCellFrame.m; sourceTree = "<group>"; };
+		0B617E991FD7F84600249BF2 /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
+		0B617E9A1FD7F84600249BF2 /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
+		0B617E9C1FD7F84600249BF2 /* CountDownInCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownInCellViewController.h; sourceTree = "<group>"; };
+		0B617E9D1FD7F84600249BF2 /* CountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		0B617E9E1FD7F84600249BF2 /* CountDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownCell.h; sourceTree = "<group>"; };
+		0B617E9F1FD7F84600249BF2 /* CountDownInCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountDownInCellViewController.xib; sourceTree = "<group>"; };
+		0B617EA01FD7F84600249BF2 /* UIView+ArrangeSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ArrangeSubview.m"; sourceTree = "<group>"; };
+		0B617EA11FD7F84600249BF2 /* CountDownInCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownInCellViewController.m; sourceTree = "<group>"; };
+		0B617EA21FD7F84600249BF2 /* CountDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountDownCell.xib; sourceTree = "<group>"; };
+		0B617EA31FD7F84600249BF2 /* CountDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownCell.m; sourceTree = "<group>"; };
+		0B617EA41FD7F84600249BF2 /* CountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		0B617EA51FD7F84600249BF2 /* UIView+ArrangeSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ArrangeSubview.h"; sourceTree = "<group>"; };
+		0B617EAD1FD7F86000249BF2 /* CountDownTimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownTimerController.h; sourceTree = "<group>"; };
+		0B617EAE1FD7F86000249BF2 /* CountDownTimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownTimerController.m; sourceTree = "<group>"; };
 		0B9098F21DEBE55500CFCD82 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
 		0B9098F31DEBE55500CFCD82 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
 		0B9098F41DEBE55500CFCD82 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
@@ -524,6 +546,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B617E971FD7F84600249BF2 /* CountDownTimer(倒计时) */,
 				0BF70F2E1FD7CD6D002C1275 /* DropDownList(下拉列表) */,
 				0BF70F201FD7A193002C1275 /* TagsSelect(选择标签列表) */,
 				0BF70EF51FD64733002C1275 /* MenuAndTags(下拉列表和标签自动布局) */,
@@ -653,6 +676,43 @@
 				0B3AEBA71FA821760045EA28 /* LogisticsTableViewCell.m */,
 				0B3AEBA81FA821760045EA28 /* LogisticsTableViewCellFrame.h */,
 				0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B617E971FD7F84600249BF2 /* CountDownTimer(倒计时) */ = {
+			isa = PBXGroup;
+			children = (
+				0B617E981FD7F84600249BF2 /* CountDown */,
+				0B617E9B1FD7F84600249BF2 /* View */,
+				0B617EAD1FD7F86000249BF2 /* CountDownTimerController.h */,
+				0B617EAE1FD7F86000249BF2 /* CountDownTimerController.m */,
+			);
+			path = "CountDownTimer(倒计时)";
+			sourceTree = "<group>";
+		};
+		0B617E981FD7F84600249BF2 /* CountDown */ = {
+			isa = PBXGroup;
+			children = (
+				0B617E991FD7F84600249BF2 /* CountDown.h */,
+				0B617E9A1FD7F84600249BF2 /* CountDown.m */,
+			);
+			path = CountDown;
+			sourceTree = "<group>";
+		};
+		0B617E9B1FD7F84600249BF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B617E9C1FD7F84600249BF2 /* CountDownInCellViewController.h */,
+				0B617E9D1FD7F84600249BF2 /* CountDownViewController.h */,
+				0B617E9E1FD7F84600249BF2 /* CountDownCell.h */,
+				0B617E9F1FD7F84600249BF2 /* CountDownInCellViewController.xib */,
+				0B617EA01FD7F84600249BF2 /* UIView+ArrangeSubview.m */,
+				0B617EA11FD7F84600249BF2 /* CountDownInCellViewController.m */,
+				0B617EA21FD7F84600249BF2 /* CountDownCell.xib */,
+				0B617EA31FD7F84600249BF2 /* CountDownCell.m */,
+				0B617EA41FD7F84600249BF2 /* CountDownViewController.m */,
+				0B617EA51FD7F84600249BF2 /* UIView+ArrangeSubview.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1192,6 +1252,7 @@
 				0B9099901DEC23BF00CFCD82 /* 15.jpg in Resources */,
 				0B90998A1DEC23BF00CFCD82 /* 1.jpg in Resources */,
 				0B3AEBAE1FA8228C0045EA28 /* logisticsInfo.plist in Resources */,
+				0B617EAA1FD7F84600249BF2 /* CountDownCell.xib in Resources */,
 				0B90998C1DEC23BF00CFCD82 /* 11.jpg in Resources */,
 				0B9099211DEBE5A500CFCD82 /* bg.png in Resources */,
 				0B9099261DEBE5A500CFCD82 /* gesture_node_normal@2x.png in Resources */,
@@ -1206,6 +1267,7 @@
 				0B9099291DEBE5A500CFCD82 /* gesture_node_success@3x.png in Resources */,
 				0B90999B1DEC23BF00CFCD82 /* 8.jpg in Resources */,
 				0B2DF7E21DB750A8002FC216 /* Assets.xcassets in Resources */,
+				0B617EA71FD7F84600249BF2 /* CountDownInCellViewController.xib in Resources */,
 				0B9099871DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib in Resources */,
 				0B9099241DEBE5A500CFCD82 /* gesture_node_highlighted@2x.png in Resources */,
 			);
@@ -1281,10 +1343,12 @@
 				0B3AEBAC1FA8222E0045EA28 /* LogisticsTableViewCellFrame.m in Sources */,
 				0B96034A1FD100F100916D00 /* PickerViewController.m in Sources */,
 				0BF70F4A1FD7D1C7002C1275 /* DropDownViewController.m in Sources */,
+				0B617EAC1FD7F84600249BF2 /* CountDownViewController.m in Sources */,
 				0B3AEBAB1FA822270045EA28 /* LogisticsTableViewCell.m in Sources */,
 				0BF70F2A1FD7A193002C1275 /* ChannelCell.m in Sources */,
 				0B3AEBAA1FA821F40045EA28 /* LogisticsInfoViewController.m in Sources */,
 				0B9603471FD100E000916D00 /* NSDate+BRAdd.m in Sources */,
+				0B617EAB1FD7F84600249BF2 /* CountDownCell.m in Sources */,
 				0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */,
 				0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */,
 				0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */,
@@ -1305,6 +1369,7 @@
 				0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */,
 				0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */,
 				0BF70F2D1FD7A1AA002C1275 /* TagSelectViewController.m in Sources */,
+				0B617EAF1FD7F86000249BF2 /* CountDownTimerController.m in Sources */,
 				0B9099861DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m in Sources */,
 				0B9099B31DEC25D200CFCD82 /* OtherWaterViewController.m in Sources */,
 				0B12C43F1DB78E1E00A9A348 /* SDImageCache.m in Sources */,
@@ -1314,6 +1379,7 @@
 				0B12C4491DB78E1E00A9A348 /* UIImageView+HighlightedWebCache.m in Sources */,
 				0B2DF7DD1DB750A8002FC216 /* ViewController.m in Sources */,
 				0B9099AC1DEC259E00CFCD82 /* FMHotBrandLayout.m in Sources */,
+				0B617EA61FD7F84600249BF2 /* CountDown.m in Sources */,
 				0BF70EF11FD640AE002C1275 /* UIView+DCRolling.m in Sources */,
 				0B9099201DEBE5A500CFCD82 /* DWiPhoneType.m in Sources */,
 				0B12C4461DB78E1E00A9A348 /* UIButton+WebCache.m in Sources */,
@@ -1325,11 +1391,13 @@
 				0BF70F471FD7D1AD002C1275 /* DOPDropDownMenu.m in Sources */,
 				0B9099AF1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m in Sources */,
 				0B9099091DEBE55500CFCD82 /* PYTempViewController.m in Sources */,
+				0B617EA91FD7F84600249BF2 /* CountDownInCellViewController.m in Sources */,
 				0B2DF7DA1DB750A8002FC216 /* AppDelegate.m in Sources */,
 				0B2DF8541DB755F8002FC216 /* UIButton+AFNetworking.m in Sources */,
 				0B9603521FD105DB00916D00 /* QJRequestApi.m in Sources */,
 				0B90991F1DEBE5A500CFCD82 /* DWGesturesLock.m in Sources */,
 				0B12C4471DB78E1E00A9A348 /* UIImage+GIF.m in Sources */,
+				0B617EA81FD7F84600249BF2 /* UIView+ArrangeSubview.m in Sources */,
 				0BF70F051FD64733002C1275 /* PTLDownMenuList.m in Sources */,
 				0B2DF8531DB755F8002FC216 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */,
