@@ -55,6 +55,8 @@
     
     cellModel *model14 = [cellModel cellModelWithName:@"倒计时" controller:@"CountDownTimerController"];
 
+    cellModel *model15 = [cellModel cellModelWithName:@"视频播放器" controller:@"DetailViewController"];
+
 
 
     [self.dataSource addObject:model1];
@@ -71,6 +73,7 @@
     [self.dataSource addObject:model12];
     [self.dataSource addObject:model13];
     [self.dataSource addObject:model14];
+    [self.dataSource addObject:model15];
 
 
 }

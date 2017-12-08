@@ -61,6 +61,15 @@
 		0B617EAB1FD7F84600249BF2 /* CountDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA31FD7F84600249BF2 /* CountDownCell.m */; };
 		0B617EAC1FD7F84600249BF2 /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA41FD7F84600249BF2 /* CountDownViewController.m */; };
 		0B617EAF1FD7F86000249BF2 /* CountDownTimerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EAE1FD7F86000249BF2 /* CountDownTimerController.m */; };
+		0B617EDA1FD8F1B600249BF2 /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B617ECB1FD8F1B500249BF2 /* WMPlayer.bundle */; };
+		0B617EDB1FD8F1B600249BF2 /* FastForwardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B617ED01FD8F1B500249BF2 /* FastForwardView.xib */; };
+		0B617EDC1FD8F1B600249BF2 /* WMLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617ED11FD8F1B500249BF2 /* WMLightView.m */; };
+		0B617EDD1FD8F1B600249BF2 /* FastForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617ED21FD8F1B500249BF2 /* FastForwardView.m */; };
+		0B617EDE1FD8F1B600249BF2 /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617ED31FD8F1B500249BF2 /* WMPlayer.m */; };
+		0B617EE01FD8F1B600249BF2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617ED61FD8F1B500249BF2 /* BaseViewController.m */; };
+		0B617EE71FD8F1E900249BF2 /* UIViewController+GestureStateBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EE41FD8F1E900249BF2 /* UIViewController+GestureStateBlock.m */; };
+		0B617EE81FD8F1E900249BF2 /* ScreenShotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EE51FD8F1E900249BF2 /* ScreenShotView.m */; };
+		0B617EEB1FD91C6300249BF2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EE91FD91C6300249BF2 /* DetailViewController.m */; };
 		0B9099021DEBE55500CFCD82 /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B9098F21DEBE55500CFCD82 /* PYSearch.bundle */; };
 		0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098F51DEBE55500CFCD82 /* PYSearchConst.m */; };
 		0B9099041DEBE55500CFCD82 /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9098F71DEBE55500CFCD82 /* PYSearchSuggestionViewController.m */; };
@@ -265,6 +274,22 @@
 		0B617EA51FD7F84600249BF2 /* UIView+ArrangeSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ArrangeSubview.h"; sourceTree = "<group>"; };
 		0B617EAD1FD7F86000249BF2 /* CountDownTimerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownTimerController.h; sourceTree = "<group>"; };
 		0B617EAE1FD7F86000249BF2 /* CountDownTimerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownTimerController.m; sourceTree = "<group>"; };
+		0B617ECB1FD8F1B500249BF2 /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		0B617ECC1FD8F1B500249BF2 /* WMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		0B617ECE1FD8F1B500249BF2 /* WMLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLightView.h; sourceTree = "<group>"; };
+		0B617ECF1FD8F1B500249BF2 /* FastForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastForwardView.h; sourceTree = "<group>"; };
+		0B617ED01FD8F1B500249BF2 /* FastForwardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FastForwardView.xib; sourceTree = "<group>"; };
+		0B617ED11FD8F1B500249BF2 /* WMLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLightView.m; sourceTree = "<group>"; };
+		0B617ED21FD8F1B500249BF2 /* FastForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastForwardView.m; sourceTree = "<group>"; };
+		0B617ED31FD8F1B500249BF2 /* WMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
+		0B617ED61FD8F1B500249BF2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0B617ED91FD8F1B500249BF2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0B617EE31FD8F1E900249BF2 /* ScreenShotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenShotView.h; sourceTree = "<group>"; };
+		0B617EE41FD8F1E900249BF2 /* UIViewController+GestureStateBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GestureStateBlock.m"; sourceTree = "<group>"; };
+		0B617EE51FD8F1E900249BF2 /* ScreenShotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenShotView.m; sourceTree = "<group>"; };
+		0B617EE61FD8F1E900249BF2 /* UIViewController+GestureStateBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GestureStateBlock.h"; sourceTree = "<group>"; };
+		0B617EE91FD91C6300249BF2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0B617EEA1FD91C6300249BF2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		0B9098F21DEBE55500CFCD82 /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
 		0B9098F31DEBE55500CFCD82 /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
 		0B9098F41DEBE55500CFCD82 /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
@@ -546,6 +571,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B617EC91FD8F1B500249BF2 /* VedioPlayer(视频播放器) */,
 				0B617E971FD7F84600249BF2 /* CountDownTimer(倒计时) */,
 				0BF70F2E1FD7CD6D002C1275 /* DropDownList(下拉列表) */,
 				0BF70F201FD7A193002C1275 /* TagsSelect(选择标签列表) */,
@@ -715,6 +741,61 @@
 				0B617EA51FD7F84600249BF2 /* UIView+ArrangeSubview.h */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0B617EC91FD8F1B500249BF2 /* VedioPlayer(视频播放器) */ = {
+			isa = PBXGroup;
+			children = (
+				0B617EE21FD8F1E900249BF2 /* ScreenShotBack */,
+				0B617ECA1FD8F1B500249BF2 /* WMPlayer */,
+				0B617ED41FD8F1B500249BF2 /* View */,
+			);
+			path = "VedioPlayer(视频播放器)";
+			sourceTree = "<group>";
+		};
+		0B617ECA1FD8F1B500249BF2 /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0B617ECB1FD8F1B500249BF2 /* WMPlayer.bundle */,
+				0B617ECC1FD8F1B500249BF2 /* WMPlayer.h */,
+				0B617ECD1FD8F1B500249BF2 /* View */,
+				0B617ED31FD8F1B500249BF2 /* WMPlayer.m */,
+			);
+			path = WMPlayer;
+			sourceTree = "<group>";
+		};
+		0B617ECD1FD8F1B500249BF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B617ECE1FD8F1B500249BF2 /* WMLightView.h */,
+				0B617ECF1FD8F1B500249BF2 /* FastForwardView.h */,
+				0B617ED01FD8F1B500249BF2 /* FastForwardView.xib */,
+				0B617ED11FD8F1B500249BF2 /* WMLightView.m */,
+				0B617ED21FD8F1B500249BF2 /* FastForwardView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B617ED41FD8F1B500249BF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B617ED91FD8F1B500249BF2 /* BaseViewController.h */,
+				0B617ED61FD8F1B500249BF2 /* BaseViewController.m */,
+				0B617EEA1FD91C6300249BF2 /* DetailViewController.h */,
+				0B617EE91FD91C6300249BF2 /* DetailViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B617EE21FD8F1E900249BF2 /* ScreenShotBack */ = {
+			isa = PBXGroup;
+			children = (
+				0B617EE31FD8F1E900249BF2 /* ScreenShotView.h */,
+				0B617EE41FD8F1E900249BF2 /* UIViewController+GestureStateBlock.m */,
+				0B617EE51FD8F1E900249BF2 /* ScreenShotView.m */,
+				0B617EE61FD8F1E900249BF2 /* UIViewController+GestureStateBlock.h */,
+			);
+			path = ScreenShotBack;
 			sourceTree = "<group>";
 		};
 		0B9098F01DEBE55500CFCD82 /* Search */ = {
@@ -1235,8 +1316,10 @@
 				0B90998B1DEC23BF00CFCD82 /* 10.jpg in Resources */,
 				0B9099821DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib in Resources */,
 				0B90998D1DEC23BF00CFCD82 /* 12.jpg in Resources */,
+				0B617EDA1FD8F1B600249BF2 /* WMPlayer.bundle in Resources */,
 				0B9099961DEC23BF00CFCD82 /* 3.jpg in Resources */,
 				0B90992A1DEBE5A500CFCD82 /* 手势&指纹.gif in Resources */,
+				0B617EDB1FD8F1B600249BF2 /* FastForwardView.xib in Resources */,
 				0B9099251DEBE5A500CFCD82 /* gesture_node_highlighted@3x.png in Resources */,
 				0B9099AE1DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.xib in Resources */,
 				0B9099911DEC23BF00CFCD82 /* 16.jpg in Resources */,
@@ -1337,6 +1420,7 @@
 				0B3AEBB21FA824E20045EA28 /* TableViewCell.m in Sources */,
 				0B3AEBB11FA824DC0045EA28 /* Tool.m in Sources */,
 				0B3AEBB01FA824D20045EA28 /* WenziZhedieTableViewController.h in Sources */,
+				0B617EE01FD8F1B600249BF2 /* BaseViewController.m in Sources */,
 				0B3AEBAF1FA824840045EA28 /* NSString+textStringToSize.m in Sources */,
 				0BF70EF01FD640AE002C1275 /* DCTitleRolling.m in Sources */,
 				0B3AEBAD1FA8223F0045EA28 /* LogisticsInfo.m in Sources */,
@@ -1347,6 +1431,7 @@
 				0B3AEBAB1FA822270045EA28 /* LogisticsTableViewCell.m in Sources */,
 				0BF70F2A1FD7A193002C1275 /* ChannelCell.m in Sources */,
 				0B3AEBAA1FA821F40045EA28 /* LogisticsInfoViewController.m in Sources */,
+				0B617EE71FD8F1E900249BF2 /* UIViewController+GestureStateBlock.m in Sources */,
 				0B9603471FD100E000916D00 /* NSDate+BRAdd.m in Sources */,
 				0B617EAB1FD7F84600249BF2 /* CountDownCell.m in Sources */,
 				0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */,
@@ -1355,6 +1440,7 @@
 				0BDA50C31FD0012B006BFA93 /* ZSAnalysisClass.m in Sources */,
 				0B2DF84D1DB755F8002FC216 /* AFURLRequestSerialization.m in Sources */,
 				0B12C4441DB78E1E00A9A348 /* SDWebImageManager.m in Sources */,
+				0B617EEB1FD91C6300249BF2 /* DetailViewController.m in Sources */,
 				0B9099881DEC23BF00CFCD82 /* AC_WaterCollectionViewLayout.m in Sources */,
 				0B9099061DEBE55500CFCD82 /* UIColor+PYExtension.m in Sources */,
 				0B9099BD1DEC26D900CFCD82 /* EasyWaterViewController.m in Sources */,
@@ -1363,9 +1449,12 @@
 				0BF70F281FD7A193002C1275 /* ChannelTags.m in Sources */,
 				0B12C4451DB78E1E00A9A348 /* SDWebImagePrefetcher.m in Sources */,
 				0BF70F061FD64733002C1275 /* PTLMaskingView.m in Sources */,
+				0B617EDE1FD8F1B600249BF2 /* WMPlayer.m in Sources */,
 				0B9099A01DEC23F200CFCD82 /* PBLViewController.m in Sources */,
 				0B12C44A1DB78E1E00A9A348 /* UIImageView+WebCache.m in Sources */,
+				0B617EDC1FD8F1B600249BF2 /* WMLightView.m in Sources */,
 				0B2DF8551DB755F8002FC216 /* UIImageView+AFNetworking.m in Sources */,
+				0B617EE81FD8F1E900249BF2 /* ScreenShotView.m in Sources */,
 				0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */,
 				0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */,
 				0BF70F2D1FD7A1AA002C1275 /* TagSelectViewController.m in Sources */,
@@ -1417,6 +1506,7 @@
 				0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */,
 				0BF70F3D1FD7CDB8002C1275 /* MoreDropDownViewController.m in Sources */,
 				0BF70F041FD64733002C1275 /* PTLMenuButton.m in Sources */,
+				0B617EDD1FD8F1B600249BF2 /* FastForwardView.m in Sources */,
 				0BF70F091FD64752002C1275 /* MenuAndTagViewController.m in Sources */,
 				0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */,
 				0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */,

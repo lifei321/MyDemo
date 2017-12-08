@@ -2,17 +2,20 @@ PODS:
   - BRPickerView (1.1.0):
     - MJExtension (~> 3.0.13)
   - Masonry (1.0.2)
+  - MBProgressHUD (1.1.0)
   - MJExtension (3.0.13)
 
 DEPENDENCIES:
   - BRPickerView
   - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 1.1.0)
 
 SPEC CHECKSUMS:
   BRPickerView: 9c93d5d9390eaed650c55b44e3eea7b0d619218c
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
 
-PODFILE CHECKSUM: 7533f3d45880e999ecef8cb1ef79033194775c44
+PODFILE CHECKSUM: f0b36c3cb1dab86d447c6220f712cfb0e7f2ee51
 
 COCOAPODS: 1.3.1
