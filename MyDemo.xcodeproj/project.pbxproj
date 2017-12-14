@@ -12,6 +12,10 @@
 		0B113B621FE2571200B25E77 /* DropDownThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B611FE2571200B25E77 /* DropDownThirdViewController.m */; };
 		0B113B661FE259B600B25E77 /* WZSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B641FE259B600B25E77 /* WZSwitch.m */; };
 		0B113B691FE259CA00B25E77 /* SwitchButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B681FE259CA00B25E77 /* SwitchButtonViewController.m */; };
+		0B113B711FE25D6300B25E77 /* PopupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B6C1FE25D6300B25E77 /* PopupTableViewCell.m */; };
+		0B113B721FE25D6300B25E77 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B6D1FE25D6300B25E77 /* PopupView.m */; };
+		0B113B731FE25D6300B25E77 /* PopupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B113B6F1FE25D6300B25E77 /* PopupTableViewCell.xib */; };
+		0B113B761FE25D7A00B25E77 /* DropMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B751FE25D7A00B25E77 /* DropMenuViewController.m */; };
 		0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C3EE1DB78AD100A9A348 /* CookieController.m */; };
 		0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C3F21DB78B1C00A9A348 /* ImageViewController.m */; };
 		0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C4221DB78E1E00A9A348 /* NSData+ImageContentType.m */; };
@@ -187,6 +191,13 @@
 		0B113B651FE259B600B25E77 /* WZSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZSwitch.h; sourceTree = "<group>"; };
 		0B113B671FE259CA00B25E77 /* SwitchButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchButtonViewController.h; sourceTree = "<group>"; };
 		0B113B681FE259CA00B25E77 /* SwitchButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchButtonViewController.m; sourceTree = "<group>"; };
+		0B113B6C1FE25D6300B25E77 /* PopupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupTableViewCell.m; sourceTree = "<group>"; };
+		0B113B6D1FE25D6300B25E77 /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		0B113B6E1FE25D6300B25E77 /* PopupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupTableViewCell.h; sourceTree = "<group>"; };
+		0B113B6F1FE25D6300B25E77 /* PopupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopupTableViewCell.xib; sourceTree = "<group>"; };
+		0B113B701FE25D6300B25E77 /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		0B113B741FE25D7A00B25E77 /* DropMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropMenuViewController.h; sourceTree = "<group>"; };
+		0B113B751FE25D7A00B25E77 /* DropMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropMenuViewController.m; sourceTree = "<group>"; };
 		0B12C3ED1DB78AD100A9A348 /* CookieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieController.h; sourceTree = "<group>"; };
 		0B12C3EE1DB78AD100A9A348 /* CookieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieController.m; sourceTree = "<group>"; };
 		0B12C3F11DB78B1C00A9A348 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -515,6 +526,28 @@
 			path = "SwitchButton（带文字的选择按钮）";
 			sourceTree = "<group>";
 		};
+		0B113B6A1FE25D6300B25E77 /* DropMenu(下拉菜单) */ = {
+			isa = PBXGroup;
+			children = (
+				0B113B6B1FE25D6300B25E77 /* DropChoiceView */,
+				0B113B741FE25D7A00B25E77 /* DropMenuViewController.h */,
+				0B113B751FE25D7A00B25E77 /* DropMenuViewController.m */,
+			);
+			path = "DropMenu(下拉菜单)";
+			sourceTree = "<group>";
+		};
+		0B113B6B1FE25D6300B25E77 /* DropChoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				0B113B6C1FE25D6300B25E77 /* PopupTableViewCell.m */,
+				0B113B6D1FE25D6300B25E77 /* PopupView.m */,
+				0B113B6E1FE25D6300B25E77 /* PopupTableViewCell.h */,
+				0B113B6F1FE25D6300B25E77 /* PopupTableViewCell.xib */,
+				0B113B701FE25D6300B25E77 /* PopupView.h */,
+			);
+			path = DropChoiceView;
+			sourceTree = "<group>";
+		};
 		0B12C3EC1DB78AD100A9A348 /* CookieController */ = {
 			isa = PBXGroup;
 			children = (
@@ -618,6 +651,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B113B6A1FE25D6300B25E77 /* DropMenu(下拉菜单) */,
 				0B113B631FE259B600B25E77 /* SwitchButton（带文字的选择按钮） */,
 				0B617EC91FD8F1B500249BF2 /* VedioPlayer(视频播放器) */,
 				0B617E971FD7F84600249BF2 /* CountDownTimer(倒计时) */,
@@ -1395,6 +1429,7 @@
 				0BDA50C41FD0012B006BFA93 /* province_data.json in Resources */,
 				0B9099281DEBE5A500CFCD82 /* gesture_node_success@2x.png in Resources */,
 				0B9099931DEC23BF00CFCD82 /* 18.jpg in Resources */,
+				0B113B731FE25D6300B25E77 /* PopupTableViewCell.xib in Resources */,
 				0B9099941DEC23BF00CFCD82 /* 19.jpg in Resources */,
 				0B9099291DEBE5A500CFCD82 /* gesture_node_success@3x.png in Resources */,
 				0B90999B1DEC23BF00CFCD82 /* 8.jpg in Resources */,
@@ -1477,6 +1512,7 @@
 				0B96034A1FD100F100916D00 /* PickerViewController.m in Sources */,
 				0BF70F4A1FD7D1C7002C1275 /* DropDownViewController.m in Sources */,
 				0B617EAC1FD7F84600249BF2 /* CountDownViewController.m in Sources */,
+				0B113B721FE25D6300B25E77 /* PopupView.m in Sources */,
 				0B3AEBAB1FA822270045EA28 /* LogisticsTableViewCell.m in Sources */,
 				0BF70F2A1FD7A193002C1275 /* ChannelCell.m in Sources */,
 				0B3AEBAA1FA821F40045EA28 /* LogisticsInfoViewController.m in Sources */,
@@ -1484,6 +1520,7 @@
 				0B9603471FD100E000916D00 /* NSDate+BRAdd.m in Sources */,
 				0B617EAB1FD7F84600249BF2 /* CountDownCell.m in Sources */,
 				0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */,
+				0B113B761FE25D7A00B25E77 /* DropMenuViewController.m in Sources */,
 				0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */,
 				0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */,
 				0B113B661FE259B600B25E77 /* WZSwitch.m in Sources */,
@@ -1540,6 +1577,7 @@
 				0BF70F051FD64733002C1275 /* PTLDownMenuList.m in Sources */,
 				0B2DF8531DB755F8002FC216 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */,
+				0B113B711FE25D6300B25E77 /* PopupTableViewCell.m in Sources */,
 				0B113B5E1FE256EC00B25E77 /* SQFiltrateView.m in Sources */,
 				0B9603461FD100E000916D00 /* BRTextField.m in Sources */,
 				0B12C44B1DB78E1E00A9A348 /* UIView+WebCacheOperation.m in Sources */,
