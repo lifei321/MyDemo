@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B113B5E1FE256EC00B25E77 /* SQFiltrateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B5C1FE256EC00B25E77 /* SQFiltrateView.m */; };
+		0B113B5F1FE256EC00B25E77 /* SQCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B5D1FE256EC00B25E77 /* SQCustomButton.m */; };
+		0B113B621FE2571200B25E77 /* DropDownThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B611FE2571200B25E77 /* DropDownThirdViewController.m */; };
 		0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C3EE1DB78AD100A9A348 /* CookieController.m */; };
 		0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C3F21DB78B1C00A9A348 /* ImageViewController.m */; };
 		0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C4221DB78E1E00A9A348 /* NSData+ImageContentType.m */; };
@@ -172,6 +175,12 @@
 
 /* Begin PBXFileReference section */
 		048CD7EE8CBAF30A6E593E4A /* libPods-MyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B113B5A1FE256EC00B25E77 /* SQFiltrateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQFiltrateView.h; sourceTree = "<group>"; };
+		0B113B5B1FE256EC00B25E77 /* SQCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCustomButton.h; sourceTree = "<group>"; };
+		0B113B5C1FE256EC00B25E77 /* SQFiltrateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQFiltrateView.m; sourceTree = "<group>"; };
+		0B113B5D1FE256EC00B25E77 /* SQCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCustomButton.m; sourceTree = "<group>"; };
+		0B113B601FE2571200B25E77 /* DropDownThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownThirdViewController.h; sourceTree = "<group>"; };
+		0B113B611FE2571200B25E77 /* DropDownThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownThirdViewController.m; sourceTree = "<group>"; };
 		0B12C3ED1DB78AD100A9A348 /* CookieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieController.h; sourceTree = "<group>"; };
 		0B12C3EE1DB78AD100A9A348 /* CookieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieController.m; sourceTree = "<group>"; };
 		0B12C3F11DB78B1C00A9A348 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -468,6 +477,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B113B581FE256EC00B25E77 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				0B113B591FE256EC00B25E77 /* tool */,
+				0B113B601FE2571200B25E77 /* DropDownThirdViewController.h */,
+				0B113B611FE2571200B25E77 /* DropDownThirdViewController.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		0B113B591FE256EC00B25E77 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				0B113B5A1FE256EC00B25E77 /* SQFiltrateView.h */,
+				0B113B5B1FE256EC00B25E77 /* SQCustomButton.h */,
+				0B113B5C1FE256EC00B25E77 /* SQFiltrateView.m */,
+				0B113B5D1FE256EC00B25E77 /* SQCustomButton.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
 		0B12C3EC1DB78AD100A9A348 /* CookieController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1172,6 +1202,7 @@
 		0BF70F2E1FD7CD6D002C1275 /* DropDownList(下拉列表) */ = {
 			isa = PBXGroup;
 			children = (
+				0B113B581FE256EC00B25E77 /* Third */,
 				0BF70F431FD7D1AD002C1275 /* second */,
 				0BF70F2F1FD7CD6D002C1275 /* first */,
 				0BF70F4B1FD7D2FA002C1275 /* DropDownListController.h */,
@@ -1490,6 +1521,7 @@
 				0BF70F051FD64733002C1275 /* PTLDownMenuList.m in Sources */,
 				0B2DF8531DB755F8002FC216 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */,
+				0B113B5E1FE256EC00B25E77 /* SQFiltrateView.m in Sources */,
 				0B9603461FD100E000916D00 /* BRTextField.m in Sources */,
 				0B12C44B1DB78E1E00A9A348 /* UIView+WebCacheOperation.m in Sources */,
 				0B2DF84F1DB755F8002FC216 /* AFURLSessionManager.m in Sources */,
@@ -1508,6 +1540,7 @@
 				0BF70F041FD64733002C1275 /* PTLMenuButton.m in Sources */,
 				0B617EDD1FD8F1B600249BF2 /* FastForwardView.m in Sources */,
 				0BF70F091FD64752002C1275 /* MenuAndTagViewController.m in Sources */,
+				0B113B5F1FE256EC00B25E77 /* SQCustomButton.m in Sources */,
 				0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */,
 				0B2DF8581DB755F8002FC216 /* UIWebView+AFNetworking.m in Sources */,
 				0B9099AD1DEC259E00CFCD82 /* FMHotBrandCeollctionSectionHeadView.m in Sources */,
@@ -1516,6 +1549,7 @@
 				0B2DF84B1DB755F8002FC216 /* AFNetworkReachabilityManager.m in Sources */,
 				0BF70F4D1FD7D2FA002C1275 /* DropDownListController.m in Sources */,
 				0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */,
+				0B113B621FE2571200B25E77 /* DropDownThirdViewController.m in Sources */,
 				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */,
 				0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */,
