@@ -62,6 +62,7 @@
 		0B3AEBB01FA824D20045EA28 /* WenziZhedieTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535B1F985B5B0044CB6F /* WenziZhedieTableViewController.h */; };
 		0B3AEBB11FA824DC0045EA28 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B53541F9859FD0044CB6F /* Tool.m */; };
 		0B3AEBB21FA824E20045EA28 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535A1F9859FD0044CB6F /* TableViewCell.m */; };
+		0B3C84FA1FE2612D00C9D910 /* AttributeStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C84F91FE2612D00C9D910 /* AttributeStringViewController.m */; };
 		0B617EA61FD7F84600249BF2 /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617E9A1FD7F84600249BF2 /* CountDown.m */; };
 		0B617EA71FD7F84600249BF2 /* CountDownInCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B617E9F1FD7F84600249BF2 /* CountDownInCellViewController.xib */; };
 		0B617EA81FD7F84600249BF2 /* UIView+ArrangeSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA01FD7F84600249BF2 /* UIView+ArrangeSubview.m */; };
@@ -286,6 +287,8 @@
 		0B3AEBA71FA821760045EA28 /* LogisticsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsTableViewCell.m; sourceTree = "<group>"; };
 		0B3AEBA81FA821760045EA28 /* LogisticsTableViewCellFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogisticsTableViewCellFrame.h; sourceTree = "<group>"; };
 		0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsTableViewCellFrame.m; sourceTree = "<group>"; };
+		0B3C84F81FE2612D00C9D910 /* AttributeStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeStringViewController.h; sourceTree = "<group>"; };
+		0B3C84F91FE2612D00C9D910 /* AttributeStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeStringViewController.m; sourceTree = "<group>"; };
 		0B617E991FD7F84600249BF2 /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
 		0B617E9A1FD7F84600249BF2 /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
 		0B617E9C1FD7F84600249BF2 /* CountDownInCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownInCellViewController.h; sourceTree = "<group>"; };
@@ -651,6 +654,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B3C84F71FE2611300C9D910 /* AttributedString(多变样式的字体) */,
 				0B113B6A1FE25D6300B25E77 /* DropMenu(下拉菜单) */,
 				0B113B631FE259B600B25E77 /* SwitchButton（带文字的选择按钮） */,
 				0B617EC91FD8F1B500249BF2 /* VedioPlayer(视频播放器) */,
@@ -786,6 +790,15 @@
 				0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0B3C84F71FE2611300C9D910 /* AttributedString(多变样式的字体) */ = {
+			isa = PBXGroup;
+			children = (
+				0B3C84F81FE2612D00C9D910 /* AttributeStringViewController.h */,
+				0B3C84F91FE2612D00C9D910 /* AttributeStringViewController.m */,
+			);
+			path = "AttributedString(多变样式的字体)";
 			sourceTree = "<group>";
 		};
 		0B617E971FD7F84600249BF2 /* CountDownTimer(倒计时) */ = {
@@ -1513,6 +1526,7 @@
 				0BF70F4A1FD7D1C7002C1275 /* DropDownViewController.m in Sources */,
 				0B617EAC1FD7F84600249BF2 /* CountDownViewController.m in Sources */,
 				0B113B721FE25D6300B25E77 /* PopupView.m in Sources */,
+				0B3C84FA1FE2612D00C9D910 /* AttributeStringViewController.m in Sources */,
 				0B3AEBAB1FA822270045EA28 /* LogisticsTableViewCell.m in Sources */,
 				0BF70F2A1FD7A193002C1275 /* ChannelCell.m in Sources */,
 				0B3AEBAA1FA821F40045EA28 /* LogisticsInfoViewController.m in Sources */,

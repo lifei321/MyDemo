@@ -61,6 +61,7 @@
 
     cellModel *model17 = [cellModel cellModelWithName:@"下拉选项菜单" controller:@"DropMenuViewController"];
 
+    cellModel *model18 = [cellModel cellModelWithName:@"多变的字体样式" controller:@"AttributeStringViewController"];
 
 
     [self.dataSource addObject:model1];
@@ -80,6 +81,7 @@
     [self.dataSource addObject:model15];
     [self.dataSource addObject:model16];
     [self.dataSource addObject:model17];
+    [self.dataSource addObject:model18];
 
 
 }
