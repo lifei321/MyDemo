@@ -10,6 +10,8 @@
 		0B113B5E1FE256EC00B25E77 /* SQFiltrateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B5C1FE256EC00B25E77 /* SQFiltrateView.m */; };
 		0B113B5F1FE256EC00B25E77 /* SQCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B5D1FE256EC00B25E77 /* SQCustomButton.m */; };
 		0B113B621FE2571200B25E77 /* DropDownThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B611FE2571200B25E77 /* DropDownThirdViewController.m */; };
+		0B113B661FE259B600B25E77 /* WZSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B641FE259B600B25E77 /* WZSwitch.m */; };
+		0B113B691FE259CA00B25E77 /* SwitchButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B113B681FE259CA00B25E77 /* SwitchButtonViewController.m */; };
 		0B12C3EF1DB78AD100A9A348 /* CookieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C3EE1DB78AD100A9A348 /* CookieController.m */; };
 		0B12C3F31DB78B1C00A9A348 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C3F21DB78B1C00A9A348 /* ImageViewController.m */; };
 		0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12C4221DB78E1E00A9A348 /* NSData+ImageContentType.m */; };
@@ -181,6 +183,10 @@
 		0B113B5D1FE256EC00B25E77 /* SQCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCustomButton.m; sourceTree = "<group>"; };
 		0B113B601FE2571200B25E77 /* DropDownThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownThirdViewController.h; sourceTree = "<group>"; };
 		0B113B611FE2571200B25E77 /* DropDownThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownThirdViewController.m; sourceTree = "<group>"; };
+		0B113B641FE259B600B25E77 /* WZSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZSwitch.m; sourceTree = "<group>"; };
+		0B113B651FE259B600B25E77 /* WZSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZSwitch.h; sourceTree = "<group>"; };
+		0B113B671FE259CA00B25E77 /* SwitchButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchButtonViewController.h; sourceTree = "<group>"; };
+		0B113B681FE259CA00B25E77 /* SwitchButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchButtonViewController.m; sourceTree = "<group>"; };
 		0B12C3ED1DB78AD100A9A348 /* CookieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieController.h; sourceTree = "<group>"; };
 		0B12C3EE1DB78AD100A9A348 /* CookieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookieController.m; sourceTree = "<group>"; };
 		0B12C3F11DB78B1C00A9A348 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -498,6 +504,17 @@
 			path = tool;
 			sourceTree = "<group>";
 		};
+		0B113B631FE259B600B25E77 /* SwitchButton（带文字的选择按钮） */ = {
+			isa = PBXGroup;
+			children = (
+				0B113B641FE259B600B25E77 /* WZSwitch.m */,
+				0B113B651FE259B600B25E77 /* WZSwitch.h */,
+				0B113B671FE259CA00B25E77 /* SwitchButtonViewController.h */,
+				0B113B681FE259CA00B25E77 /* SwitchButtonViewController.m */,
+			);
+			path = "SwitchButton（带文字的选择按钮）";
+			sourceTree = "<group>";
+		};
 		0B12C3EC1DB78AD100A9A348 /* CookieController */ = {
 			isa = PBXGroup;
 			children = (
@@ -601,6 +618,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B113B631FE259B600B25E77 /* SwitchButton（带文字的选择按钮） */,
 				0B617EC91FD8F1B500249BF2 /* VedioPlayer(视频播放器) */,
 				0B617E971FD7F84600249BF2 /* CountDownTimer(倒计时) */,
 				0BF70F2E1FD7CD6D002C1275 /* DropDownList(下拉列表) */,
@@ -1468,6 +1486,7 @@
 				0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */,
 				0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */,
 				0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */,
+				0B113B661FE259B600B25E77 /* WZSwitch.m in Sources */,
 				0BDA50C31FD0012B006BFA93 /* ZSAnalysisClass.m in Sources */,
 				0B2DF84D1DB755F8002FC216 /* AFURLRequestSerialization.m in Sources */,
 				0B12C4441DB78E1E00A9A348 /* SDWebImageManager.m in Sources */,
@@ -1531,6 +1550,7 @@
 				0B12C4411DB78E1E00A9A348 /* SDWebImageDecoder.m in Sources */,
 				0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */,
 				0B2DF8571DB755F8002FC216 /* UIRefreshControl+AFNetworking.m in Sources */,
+				0B113B691FE259CA00B25E77 /* SwitchButtonViewController.m in Sources */,
 				0BDA50C21FD0012B006BFA93 /* UIView+GoodView.m in Sources */,
 				0B12C4431DB78E1E00A9A348 /* SDWebImageDownloaderOperation.m in Sources */,
 				0BF70F391FD7CD6E002C1275 /* MoreDropDownMenu.m in Sources */,

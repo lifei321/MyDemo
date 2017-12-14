@@ -57,6 +57,8 @@
 
     cellModel *model15 = [cellModel cellModelWithName:@"视频播放器" controller:@"DetailViewController"];
 
+    cellModel *model16 = [cellModel cellModelWithName:@"带文字的选择按钮" controller:@"SwitchButtonViewController"];
+
 
 
     [self.dataSource addObject:model1];
@@ -74,6 +76,7 @@
     [self.dataSource addObject:model13];
     [self.dataSource addObject:model14];
     [self.dataSource addObject:model15];
+    [self.dataSource addObject:model16];
 
 
 }
