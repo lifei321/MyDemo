@@ -63,6 +63,11 @@
 		0B3AEBB11FA824DC0045EA28 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B53541F9859FD0044CB6F /* Tool.m */; };
 		0B3AEBB21FA824E20045EA28 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535A1F9859FD0044CB6F /* TableViewCell.m */; };
 		0B3C84FA1FE2612D00C9D910 /* AttributeStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C84F91FE2612D00C9D910 /* AttributeStringViewController.m */; };
+		0B3C85051FE2629100C9D910 /* HWWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C84FD1FE2629100C9D910 /* HWWaveView.m */; };
+		0B3C85061FE2629100C9D910 /* HWCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C85001FE2629100C9D910 /* HWCircleView.m */; };
+		0B3C85071FE2629100C9D910 /* HWProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C85021FE2629100C9D910 /* HWProgressView.m */; };
+		0B3C85081FE2629100C9D910 /* HWInstallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C85041FE2629100C9D910 /* HWInstallView.m */; };
+		0B3C850B1FE262AC00C9D910 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C850A1FE262AC00C9D910 /* ProgressViewController.m */; };
 		0B617EA61FD7F84600249BF2 /* CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617E9A1FD7F84600249BF2 /* CountDown.m */; };
 		0B617EA71FD7F84600249BF2 /* CountDownInCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B617E9F1FD7F84600249BF2 /* CountDownInCellViewController.xib */; };
 		0B617EA81FD7F84600249BF2 /* UIView+ArrangeSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B617EA01FD7F84600249BF2 /* UIView+ArrangeSubview.m */; };
@@ -289,6 +294,16 @@
 		0B3AEBA91FA821760045EA28 /* LogisticsTableViewCellFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogisticsTableViewCellFrame.m; sourceTree = "<group>"; };
 		0B3C84F81FE2612D00C9D910 /* AttributeStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributeStringViewController.h; sourceTree = "<group>"; };
 		0B3C84F91FE2612D00C9D910 /* AttributeStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributeStringViewController.m; sourceTree = "<group>"; };
+		0B3C84FD1FE2629100C9D910 /* HWWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWWaveView.m; sourceTree = "<group>"; };
+		0B3C84FE1FE2629100C9D910 /* HWInstallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWInstallView.h; sourceTree = "<group>"; };
+		0B3C84FF1FE2629100C9D910 /* HWProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWProgressView.h; sourceTree = "<group>"; };
+		0B3C85001FE2629100C9D910 /* HWCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCircleView.m; sourceTree = "<group>"; };
+		0B3C85011FE2629100C9D910 /* HWWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWWaveView.h; sourceTree = "<group>"; };
+		0B3C85021FE2629100C9D910 /* HWProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWProgressView.m; sourceTree = "<group>"; };
+		0B3C85031FE2629100C9D910 /* HWCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCircleView.h; sourceTree = "<group>"; };
+		0B3C85041FE2629100C9D910 /* HWInstallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWInstallView.m; sourceTree = "<group>"; };
+		0B3C85091FE262AC00C9D910 /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		0B3C850A1FE262AC00C9D910 /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
 		0B617E991FD7F84600249BF2 /* CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDown.h; sourceTree = "<group>"; };
 		0B617E9A1FD7F84600249BF2 /* CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDown.m; sourceTree = "<group>"; };
 		0B617E9C1FD7F84600249BF2 /* CountDownInCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownInCellViewController.h; sourceTree = "<group>"; };
@@ -654,6 +669,7 @@
 		0B2DF7EF1DB754DD002FC216 /* ChildController */ = {
 			isa = PBXGroup;
 			children = (
+				0B3C84FB1FE2629100C9D910 /* Progress（各种进度条） */,
 				0B3C84F71FE2611300C9D910 /* AttributedString(多变样式的字体) */,
 				0B113B6A1FE25D6300B25E77 /* DropMenu(下拉菜单) */,
 				0B113B631FE259B600B25E77 /* SwitchButton（带文字的选择按钮） */,
@@ -799,6 +815,31 @@
 				0B3C84F91FE2612D00C9D910 /* AttributeStringViewController.m */,
 			);
 			path = "AttributedString(多变样式的字体)";
+			sourceTree = "<group>";
+		};
+		0B3C84FB1FE2629100C9D910 /* Progress（各种进度条） */ = {
+			isa = PBXGroup;
+			children = (
+				0B3C84FC1FE2629100C9D910 /* View */,
+				0B3C85091FE262AC00C9D910 /* ProgressViewController.h */,
+				0B3C850A1FE262AC00C9D910 /* ProgressViewController.m */,
+			);
+			path = "Progress（各种进度条）";
+			sourceTree = "<group>";
+		};
+		0B3C84FC1FE2629100C9D910 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B3C84FD1FE2629100C9D910 /* HWWaveView.m */,
+				0B3C84FE1FE2629100C9D910 /* HWInstallView.h */,
+				0B3C84FF1FE2629100C9D910 /* HWProgressView.h */,
+				0B3C85001FE2629100C9D910 /* HWCircleView.m */,
+				0B3C85011FE2629100C9D910 /* HWWaveView.h */,
+				0B3C85021FE2629100C9D910 /* HWProgressView.m */,
+				0B3C85031FE2629100C9D910 /* HWCircleView.h */,
+				0B3C85041FE2629100C9D910 /* HWInstallView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		0B617E971FD7F84600249BF2 /* CountDownTimer(倒计时) */ = {
@@ -1565,6 +1606,7 @@
 				0B12C43F1DB78E1E00A9A348 /* SDImageCache.m in Sources */,
 				0BF70F031FD64733002C1275 /* KMTag.m in Sources */,
 				0B9099071DEBE55500CFCD82 /* UIView+PYExtension.m in Sources */,
+				0B3C85061FE2629100C9D910 /* HWCircleView.m in Sources */,
 				0B9099081DEBE55500CFCD82 /* PYSearchExampleController.m in Sources */,
 				0B12C4491DB78E1E00A9A348 /* UIImageView+HighlightedWebCache.m in Sources */,
 				0B2DF7DD1DB750A8002FC216 /* ViewController.m in Sources */,
@@ -1572,6 +1614,7 @@
 				0B617EA61FD7F84600249BF2 /* CountDown.m in Sources */,
 				0BF70EF11FD640AE002C1275 /* UIView+DCRolling.m in Sources */,
 				0B9099201DEBE5A500CFCD82 /* DWiPhoneType.m in Sources */,
+				0B3C85081FE2629100C9D910 /* HWInstallView.m in Sources */,
 				0B12C4461DB78E1E00A9A348 /* UIButton+WebCache.m in Sources */,
 				0B2DF8561DB755F8002FC216 /* UIProgressView+AFNetworking.m in Sources */,
 				0BF70F3A1FD7CD6E002C1275 /* NSArray+ZMAdd.m in Sources */,
@@ -1581,6 +1624,7 @@
 				0BF70F471FD7D1AD002C1275 /* DOPDropDownMenu.m in Sources */,
 				0B9099AF1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m in Sources */,
 				0B9099091DEBE55500CFCD82 /* PYTempViewController.m in Sources */,
+				0B3C85051FE2629100C9D910 /* HWWaveView.m in Sources */,
 				0B617EA91FD7F84600249BF2 /* CountDownInCellViewController.m in Sources */,
 				0B2DF7DA1DB750A8002FC216 /* AppDelegate.m in Sources */,
 				0B2DF8541DB755F8002FC216 /* UIButton+AFNetworking.m in Sources */,
@@ -1599,6 +1643,7 @@
 				0B9099851DEC23BF00CFCD82 /* UICollectionViewSimpleController.m in Sources */,
 				0BDA50CE1FD0017B006BFA93 /* CityPickerVeiw.m in Sources */,
 				0B12C4481DB78E1E00A9A348 /* UIImage+MultiFormat.m in Sources */,
+				0B3C850B1FE262AC00C9D910 /* ProgressViewController.m in Sources */,
 				0B12C4411DB78E1E00A9A348 /* SDWebImageDecoder.m in Sources */,
 				0B12C43E1DB78E1E00A9A348 /* NSData+ImageContentType.m in Sources */,
 				0B2DF8571DB755F8002FC216 /* UIRefreshControl+AFNetworking.m in Sources */,
@@ -1621,6 +1666,7 @@
 				0B2DF84B1DB755F8002FC216 /* AFNetworkReachabilityManager.m in Sources */,
 				0BF70F4D1FD7D2FA002C1275 /* DropDownListController.m in Sources */,
 				0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */,
+				0B3C85071FE2629100C9D910 /* HWProgressView.m in Sources */,
 				0B113B621FE2571200B25E77 /* DropDownThirdViewController.m in Sources */,
 				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */,

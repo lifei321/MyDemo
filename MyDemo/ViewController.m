@@ -63,6 +63,7 @@
 
     cellModel *model18 = [cellModel cellModelWithName:@"多变的字体样式" controller:@"AttributeStringViewController"];
 
+    cellModel *model19 = [cellModel cellModelWithName:@"各种样式的进度条" controller:@"ProgressViewController"];
 
     [self.dataSource addObject:model1];
     [self.dataSource addObject:model2];
@@ -82,6 +83,7 @@
     [self.dataSource addObject:model16];
     [self.dataSource addObject:model17];
     [self.dataSource addObject:model18];
+    [self.dataSource addObject:model19];
 
 
 }
