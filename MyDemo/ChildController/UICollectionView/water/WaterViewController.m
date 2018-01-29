@@ -9,8 +9,8 @@
 #import "WaterViewController.h"
 #import "AC_WaterCollectionViewLayout.h"
 #import "AC_WaterCollectionViewCell.h"
-#import "SimpleHeadCollectionReusableView.h"
-#import "SimpleFootCollectionReusableView.h"
+//#import "SimpleHeadCollectionReusableView.h"
+//#import "SimpleFootCollectionReusableView.h"
 
 @interface WaterViewController () <UICollectionViewDelegate, UICollectionViewDataSource,AC_WaterCollectionViewLayoutDelegate>
 
@@ -40,9 +40,9 @@
     
     
     [self.waterCollectionView registerNib:[UINib nibWithNibName:NSStringFromClass([AC_WaterCollectionViewCell class]) bundle:nil] forCellWithReuseIdentifier:@"waterCell"];
-    [self.waterCollectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SimpleHeadCollectionReusableView class]) bundle:nil] forSupplementaryViewOfKind:AC_UICollectionElementKindSectionHeader withReuseIdentifier:@"simpleHead"];
-    
-    [self.waterCollectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SimpleFootCollectionReusableView class]) bundle:nil] forSupplementaryViewOfKind:AC_UICollectionElementKindSectionFooter withReuseIdentifier:@"simpleFoot"];
+//    [self.waterCollectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SimpleHeadCollectionReusableView class]) bundle:nil] forSupplementaryViewOfKind:AC_UICollectionElementKindSectionHeader withReuseIdentifier:@"simpleHead"];
+//
+//    [self.waterCollectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SimpleFootCollectionReusableView class]) bundle:nil] forSupplementaryViewOfKind:AC_UICollectionElementKindSectionFooter withReuseIdentifier:@"simpleFoot"];
 
     
     
@@ -108,13 +108,13 @@
 //设置head foot视图
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
-    if ([kind isEqualToString:AC_UICollectionElementKindSectionHeader]) {
-        SimpleHeadCollectionReusableView *head = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"simpleHead" forIndexPath:indexPath];
-        return head;
-    }else if([kind isEqualToString:AC_UICollectionElementKindSectionFooter]){
-        SimpleFootCollectionReusableView *foot = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"simpleFoot" forIndexPath:indexPath];
-        return foot;
-    }
+//    if ([kind isEqualToString:AC_UICollectionElementKindSectionHeader]) {
+//        SimpleHeadCollectionReusableView *head = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"simpleHead" forIndexPath:indexPath];
+//        return head;
+//    }else if([kind isEqualToString:AC_UICollectionElementKindSectionFooter]){
+//        SimpleFootCollectionReusableView *foot = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"simpleFoot" forIndexPath:indexPath];
+//        return foot;
+//    }
     return nil;
 }
 

@@ -107,12 +107,6 @@
 		0B9099291DEBE5A500CFCD82 /* gesture_node_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B90991C1DEBE5A500CFCD82 /* gesture_node_success@3x.png */; };
 		0B90992A1DEBE5A500CFCD82 /* 手势&指纹.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B90991D1DEBE5A500CFCD82 /* 手势&指纹.gif */; };
 		0B90992D1DEBE5C100CFCD82 /* UNlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90992C1DEBE5C100CFCD82 /* UNlockViewController.m */; };
-		0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */; };
-		0B9099801DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */; };
-		0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90995B1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m */; };
-		0B9099821DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B90995C1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib */; };
-		0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B90995E1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m */; };
-		0B9099841DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B90995F1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib */; };
 		0B9099851DEC23BF00CFCD82 /* UICollectionViewSimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099611DEC23BF00CFCD82 /* UICollectionViewSimpleController.m */; };
 		0B9099861DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9099641DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.m */; };
 		0B9099871DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9099651DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.xib */; };
@@ -156,6 +150,9 @@
 		0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9603501FD105DB00916D00 /* QJVersionUpdateVIew.m */; };
 		0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9603561FD1062400916D00 /* CheckVersionViewController.m */; };
 		0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */; };
+		0BA4192C201EEED6002C6335 /* SimpleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4192B201EEED6002C6335 /* SimpleCollectionViewCell.m */; };
+		0BA4192F201EF3B1002C6335 /* SimpleHeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4192E201EF3B1002C6335 /* SimpleHeadCollectionReusableView.m */; };
+		0BA41932201EF4D0002C6335 /* SimpleFootCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA41931201EF4D0002C6335 /* SimpleFootCollectionReusableView.m */; };
 		0BDA50C21FD0012B006BFA93 /* UIView+GoodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50BB1FD0012B006BFA93 /* UIView+GoodView.m */; };
 		0BDA50C31FD0012B006BFA93 /* ZSAnalysisClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA50BD1FD0012B006BFA93 /* ZSAnalysisClass.m */; };
 		0BDA50C41FD0012B006BFA93 /* province_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BDA50BF1FD0012B006BFA93 /* province_data.json */; };
@@ -369,15 +366,6 @@
 		0B90991D1DEBE5A500CFCD82 /* 手势&指纹.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "手势&指纹.gif"; sourceTree = "<group>"; };
 		0B90992B1DEBE5C100CFCD82 /* UNlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UNlockViewController.h; sourceTree = "<group>"; };
 		0B90992C1DEBE5C100CFCD82 /* UNlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UNlockViewController.m; sourceTree = "<group>"; };
-		0B9099571DEC23BF00CFCD82 /* SimpleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleCollectionViewCell.h; sourceTree = "<group>"; };
-		0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCollectionViewCell.m; sourceTree = "<group>"; };
-		0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCollectionViewCell.xib; sourceTree = "<group>"; };
-		0B90995A1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFootCollectionReusableView.h; sourceTree = "<group>"; };
-		0B90995B1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFootCollectionReusableView.m; sourceTree = "<group>"; };
-		0B90995C1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleFootCollectionReusableView.xib; sourceTree = "<group>"; };
-		0B90995D1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHeadCollectionReusableView.h; sourceTree = "<group>"; };
-		0B90995E1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHeadCollectionReusableView.m; sourceTree = "<group>"; };
-		0B90995F1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleHeadCollectionReusableView.xib; sourceTree = "<group>"; };
 		0B9099601DEC23BF00CFCD82 /* UICollectionViewSimpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewSimpleController.h; sourceTree = "<group>"; };
 		0B9099611DEC23BF00CFCD82 /* UICollectionViewSimpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewSimpleController.m; sourceTree = "<group>"; };
 		0B9099631DEC23BF00CFCD82 /* AC_WaterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC_WaterCollectionViewCell.h; sourceTree = "<group>"; };
@@ -445,6 +433,12 @@
 		0B9B535A1F9859FD0044CB6F /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		0B9B535B1F985B5B0044CB6F /* WenziZhedieTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenziZhedieTableViewController.h; sourceTree = "<group>"; };
 		0B9B535C1F985B5B0044CB6F /* WenziZhedieTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenziZhedieTableViewController.m; sourceTree = "<group>"; };
+		0BA4192A201EEED6002C6335 /* SimpleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleCollectionViewCell.h; sourceTree = "<group>"; };
+		0BA4192B201EEED6002C6335 /* SimpleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleCollectionViewCell.m; sourceTree = "<group>"; };
+		0BA4192D201EF3B1002C6335 /* SimpleHeadCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHeadCollectionReusableView.h; sourceTree = "<group>"; };
+		0BA4192E201EF3B1002C6335 /* SimpleHeadCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleHeadCollectionReusableView.m; sourceTree = "<group>"; };
+		0BA41930201EF4D0002C6335 /* SimpleFootCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFootCollectionReusableView.h; sourceTree = "<group>"; };
+		0BA41931201EF4D0002C6335 /* SimpleFootCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFootCollectionReusableView.m; sourceTree = "<group>"; };
 		0BDA50BA1FD0012B006BFA93 /* ZSAnalysisClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAnalysisClass.h; sourceTree = "<group>"; };
 		0BDA50BB1FD0012B006BFA93 /* UIView+GoodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoodView.m"; sourceTree = "<group>"; };
 		0BDA50BC1FD0012B006BFA93 /* UIView+GoodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoodView.h"; sourceTree = "<group>"; };
@@ -1024,17 +1018,14 @@
 		0B9099561DEC23BF00CFCD82 /* simple */ = {
 			isa = PBXGroup;
 			children = (
-				0B9099571DEC23BF00CFCD82 /* SimpleCollectionViewCell.h */,
-				0B9099581DEC23BF00CFCD82 /* SimpleCollectionViewCell.m */,
-				0B9099591DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib */,
-				0B90995A1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.h */,
-				0B90995B1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m */,
-				0B90995C1DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib */,
-				0B90995D1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.h */,
-				0B90995E1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m */,
-				0B90995F1DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib */,
 				0B9099601DEC23BF00CFCD82 /* UICollectionViewSimpleController.h */,
 				0B9099611DEC23BF00CFCD82 /* UICollectionViewSimpleController.m */,
+				0BA4192A201EEED6002C6335 /* SimpleCollectionViewCell.h */,
+				0BA4192B201EEED6002C6335 /* SimpleCollectionViewCell.m */,
+				0BA4192D201EF3B1002C6335 /* SimpleHeadCollectionReusableView.h */,
+				0BA4192E201EF3B1002C6335 /* SimpleHeadCollectionReusableView.m */,
+				0BA41930201EF4D0002C6335 /* SimpleFootCollectionReusableView.h */,
+				0BA41931201EF4D0002C6335 /* SimpleFootCollectionReusableView.m */,
 			);
 			path = simple;
 			sourceTree = "<group>";
@@ -1451,7 +1442,6 @@
 				0B9099951DEC23BF00CFCD82 /* 2.jpg in Resources */,
 				0B90998E1DEC23BF00CFCD82 /* 13.jpg in Resources */,
 				0B90998B1DEC23BF00CFCD82 /* 10.jpg in Resources */,
-				0B9099821DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.xib in Resources */,
 				0B90998D1DEC23BF00CFCD82 /* 12.jpg in Resources */,
 				0B617EDA1FD8F1B600249BF2 /* WMPlayer.bundle in Resources */,
 				0B9099961DEC23BF00CFCD82 /* 3.jpg in Resources */,
@@ -1465,9 +1455,7 @@
 				0B9099021DEBE55500CFCD82 /* PYSearch.bundle in Resources */,
 				0B9099991DEC23BF00CFCD82 /* 6.jpg in Resources */,
 				0B90999A1DEC23BF00CFCD82 /* 7.jpg in Resources */,
-				0B9099801DEC23BF00CFCD82 /* SimpleCollectionViewCell.xib in Resources */,
 				0B90998F1DEC23BF00CFCD82 /* 14.jpg in Resources */,
-				0B9099841DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.xib in Resources */,
 				0B9099221DEBE5A500CFCD82 /* gesture_node_error@2x.png in Resources */,
 				0B9099901DEC23BF00CFCD82 /* 15.jpg in Resources */,
 				0B90998A1DEC23BF00CFCD82 /* 1.jpg in Resources */,
@@ -1577,7 +1565,6 @@
 				0B9B535D1F985B5B0044CB6F /* WenziZhedieTableViewController.m in Sources */,
 				0B113B761FE25D7A00B25E77 /* DropMenuViewController.m in Sources */,
 				0B9099031DEBE55500CFCD82 /* PYSearchConst.m in Sources */,
-				0B9099811DEC23BF00CFCD82 /* SimpleFootCollectionReusableView.m in Sources */,
 				0B113B661FE259B600B25E77 /* WZSwitch.m in Sources */,
 				0BDA50C31FD0012B006BFA93 /* ZSAnalysisClass.m in Sources */,
 				0B2DF84D1DB755F8002FC216 /* AFURLRequestSerialization.m in Sources */,
@@ -1597,7 +1584,6 @@
 				0B617EDC1FD8F1B600249BF2 /* WMLightView.m in Sources */,
 				0B2DF8551DB755F8002FC216 /* UIImageView+AFNetworking.m in Sources */,
 				0B617EE81FD8F1E900249BF2 /* ScreenShotView.m in Sources */,
-				0B90997F1DEC23BF00CFCD82 /* SimpleCollectionViewCell.m in Sources */,
 				0B9099BA1DEC26C500CFCD82 /* PCollectionViewLayout.m in Sources */,
 				0BF70F2D1FD7A1AA002C1275 /* TagSelectViewController.m in Sources */,
 				0B617EAF1FD7F86000249BF2 /* CountDownTimerController.m in Sources */,
@@ -1620,6 +1606,7 @@
 				0BF70F3A1FD7CD6E002C1275 /* NSArray+ZMAdd.m in Sources */,
 				0B2DF8511DB755F8002FC216 /* AFImageDownloader.m in Sources */,
 				0B90992D1DEBE5C100CFCD82 /* UNlockViewController.m in Sources */,
+				0BA4192F201EF3B1002C6335 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0B2DF8501DB755F8002FC216 /* AFAutoPurgingImageCache.m in Sources */,
 				0BF70F471FD7D1AD002C1275 /* DOPDropDownMenu.m in Sources */,
 				0B9099AF1DEC259E00CFCD82 /* FMHotBrandCollectionCell.m in Sources */,
@@ -1636,6 +1623,7 @@
 				0B2DF8531DB755F8002FC216 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0B9603571FD1062400916D00 /* CheckVersionViewController.m in Sources */,
 				0B113B711FE25D6300B25E77 /* PopupTableViewCell.m in Sources */,
+				0BA41932201EF4D0002C6335 /* SimpleFootCollectionReusableView.m in Sources */,
 				0B113B5E1FE256EC00B25E77 /* SQFiltrateView.m in Sources */,
 				0B9603461FD100E000916D00 /* BRTextField.m in Sources */,
 				0B12C44B1DB78E1E00A9A348 /* UIView+WebCacheOperation.m in Sources */,
@@ -1668,12 +1656,12 @@
 				0BDA50C51FD0012B006BFA93 /* CityNameModel.m in Sources */,
 				0B3C85071FE2629100C9D910 /* HWProgressView.m in Sources */,
 				0B113B621FE2571200B25E77 /* DropDownThirdViewController.m in Sources */,
-				0B9099831DEC23BF00CFCD82 /* SimpleHeadCollectionReusableView.m in Sources */,
 				0BF70EF41FD640C5002C1275 /* ScrollNewsViewController.m in Sources */,
 				0B9603541FD105DB00916D00 /* QJVersionUpdateVIew.m in Sources */,
 				0BF70F021FD64733002C1275 /* KMTagListView.m in Sources */,
 				0B12C4421DB78E1E00A9A348 /* SDWebImageDownloader.m in Sources */,
 				0B2DF84C1DB755F8002FC216 /* AFSecurityPolicy.m in Sources */,
+				0BA4192C201EEED6002C6335 /* SimpleCollectionViewCell.m in Sources */,
 				0B90999D1DEC23C000CFCD82 /* WaterViewController.m in Sources */,
 				0BF70F291FD7A193002C1275 /* Channel.m in Sources */,
 				0BDA50CB1FD0015E006BFA93 /* SelectCityViewController.m in Sources */,

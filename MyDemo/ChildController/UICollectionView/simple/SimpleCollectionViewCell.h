@@ -1,14 +1,15 @@
 //
 //  SimpleCollectionViewCell.h
-//  AC_UICollectionView
+//  MyDemo
 //
-//  Created by FM-13 on 16/6/22.
-//  Copyright © 2016年 cong. All rights reserved.
+//  Created by ShanCheli on 2018/1/29.
+//  Copyright © 2018年 shancheli. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface SimpleCollectionViewCell : UICollectionViewCell
 
-@property (weak, nonatomic) IBOutlet UILabel *textTitle;
+@property (nonatomic, strong) UILabel *label;
+
 @end

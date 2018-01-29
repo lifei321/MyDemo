@@ -24,41 +24,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     self.flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    self.flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    self.flowLayout.itemSize = CGSizeMake(80, 80);
-    self.flowLayout.minimumInteritemSpacing = 0;
+    
+    // 滚动方向
+    self.flowLayout.scrollDirection = UICollectionViewScrollDirectionVertical;
+    
+    // 固定cell的大小
+    self.flowLayout.itemSize = CGSizeMake(CGRectGetWidth(self.view.bounds) / 3 - 30, 80);
+    
+    // 每个cell之间的最小距离
+    self.flowLayout.minimumInteritemSpacing = 30;
+    
+    // 每行cell之间的最小距离
     self.flowLayout.minimumLineSpacing = 30;
     
-    ///header 和footer 的高度
-    self.flowLayout.headerReferenceSize = CGSizeMake(60, 100);
+    // 整个collectionview的外边距
+    self.flowLayout.sectionInset = UIEdgeInsetsMake(5, 5, 5, 5);
+    
+    ///header 和footer 的尺寸
+    self.flowLayout.headerReferenceSize = CGSizeMake(60, 20);
     self.flowLayout.footerReferenceSize = CGSizeMake(100, 40);
     
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:self.flowLayout];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
-    
-    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SimpleCollectionViewCell class]) bundle:nil] forCellWithReuseIdentifier:@"simpleCell"];
+    [self.collectionView registerClass:[SimpleCollectionViewCell class] forCellWithReuseIdentifier:@"simpleCell"];
     [self.view addSubview:self.collectionView];
     
-    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SimpleHeadCollectionReusableView class]) bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"simpleHead"];
-
-    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SimpleFootCollectionReusableView class]) bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"simpleFoot"];
+    [self.collectionView registerClass:[SimpleHeadCollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"simpleHead"];
+    [self.collectionView registerClass:[SimpleFootCollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"simpleFoot"];
+    
     
     self.dataArr = [NSMutableArray array];
     
-    for (int i = 0; i < 50; i++) {
+    for (int i = 0; i < 10; i++) {
         CGSize size = CGSizeMake((arc4random() % 20) + 20, (arc4random() % 20) + 30);
         NSValue *value = [NSValue valueWithCGSize:size];
-        
         [self.dataArr addObject:value];
-        
     }
-    
-    
     
     UILongPressGestureRecognizer *longGest = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longGest:)];
     [self.collectionView addGestureRecognizer:longGest];
@@ -76,7 +81,6 @@
             }else{
                 break;
             }
-            
         }
             break;
         case UIGestureRecognizerStateChanged:
@@ -94,8 +98,8 @@
     }
 }
 
-- (void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath*)destinationIndexPath NS_AVAILABLE_IOS(9_0)
-{
+- (void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath*)destinationIndexPath NS_AVAILABLE_IOS(9_0) {
+    
     NSValue *value = self.dataArr[sourceIndexPath.item];
     [self.dataArr removeObjectAtIndex:sourceIndexPath.item];
     [self.dataArr insertObject:value atIndex:destinationIndexPath.item];
@@ -204,7 +208,7 @@
 {
     SimpleCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"simpleCell" forIndexPath:indexPath];
     
-    cell.textTitle.text = [NSString stringWithFormat:@"%ld", indexPath.row];
+    cell.label.text = [NSString stringWithFormat:@"%ld", indexPath.row];
     
     return cell;
 }
